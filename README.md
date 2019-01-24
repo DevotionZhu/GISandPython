@@ -1,6 +1,11 @@
+Author: [PasserQi](https://blog.csdn.net/summer_dew)
+
+
 > 开源GIS与Python  
 > 主题：使用Python实现GIS的相关处理  
 > 内容：入门+示例+应用代码
+
+Markdown-toc
 
 
 【文件目录介绍】
@@ -12,7 +17,7 @@
     - 3Proj.4 #开源的地图投影库
     - 4Mapnik #地图渲染与出图
 
-[toc]
+
 
 
 # Python与开源GIS
