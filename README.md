@@ -5,10 +5,11 @@ Author: [PasserQi](https://blog.csdn.net/summer_dew)
 > 主题：使用Python实现GIS的相关处理  
 > 内容：入门+示例+应用代码
 
+
 Markdown-toc
 
 
-【文件目录介绍】
+【项目文件目录介绍】
 
 - GISandPython
     - 0StudyMaterials #学习资料
@@ -21,7 +22,8 @@ Markdown-toc
 
 
 # Python与开源GIS
-【网站】http://pygis.osgeo.cn/
+【学习网站】http://pygis.osgeo.cn
+
 
 
 ## 基础类库（抽象库）
@@ -48,6 +50,14 @@ GeoDjango django出品，集成了GIS功能的门户网站程序
 - python-rasterstats 栅格数据统计
 
 # GDAL项目
+【学习资料】
+1. 官方网站：https://www.gdal.org/
+2. 犹他州立大学——开源GIS类库GDAL资料：Python GDAL课程笔记：http://www.osgeo.cn/python_gdal_utah_tutorial/
+2. OSGeo中国的文档：http://pygis.osgeo.cn/gdal_begin.html
+3. OSGeo中国的教程：http://www.osgeo.cn/page/python_opengis
+4. GDAL开发文档：https://gdal.org/python/
+
+
 【GDAL项目】Geospatial Data Abstraction Library项目，是根据地理数据抽象库对地理数据文件进行读写的一个项目
 
 【背景】GDAL项目是用地理数据抽象模型对地理数据文件的读写管理，GDAL项目中对栅格数据的读写称为GDAL模块，对矢量数据的读写称为OGR模块

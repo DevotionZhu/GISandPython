@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988b4990-8343-4fe9-8515-8dd5811a0a29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1ORG/1example/读shp-点图层.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/building_shp/xiamen_20181116_building.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/building_shp/xiamen_20181116_building.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/building_shp/xiamen_20181116_building.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/building_shp/xiamen_20181116_building.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_point_shp/xiamen_20181128_park.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_point_shp/xiamen_20181128_park.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_point_shp/xiamen_20181128_park.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_point_shp/xiamen_20181128_park.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_point_shp/xiamen_20181128_park.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_point_shp/xiamen_20181128_park.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_point_shp/xiamen_20181128_park.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/road_shp/xiamen_20181116_road.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/road_shp/xiamen_20181116_road.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/road_shp/xiamen_20181116_road.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9data/road_shp/xiamen_20181116_road.shx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GISandPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GISandPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0StudyMaterials/python+gdal.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/9StudyMaterials/python+gdal.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/1example/点shp文件处理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[GIS与Python] 1 OGR-矢量数据读写管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/0node/[GIS与Python] 1 OGR-矢量数据读写管理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2GDAL/[GIS与Python] 2 GDAL-栅格数据读写管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/0node/[GIS与Python] 2 GDAL-栅格数据读写管理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Proj/[GIS与Python] 3 Proj.4投影.md" beforeDir="false" afterPath="$PROJECT_DIR$/0node/[GIS与Python] 3 Proj.4投影.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4Mapnik/[GIS与Python] 4 mapnik制图.md" beforeDir="false" afterPath="$PROJECT_DIR$/0node/[GIS与Python] 4 mapnik制图.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[GIS] GDAL和OGR+mapnik+proj.4.md" beforeDir="false" afterPath="$PROJECT_DIR$/0node/[GIS] GDAL和OGR+mapnik+proj.4.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,21 +43,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GISandPython$shp.coverage" NAME="点状shp Coverage Results" MODIFIED="1548321120557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1ORG/1example" />
+    <SUITE FILE_PATH="coverage/GISandPython$shp_.coverage" NAME="读shp-点图层 Coverage Results" MODIFIED="1550543671995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1ORG/1example" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1ORG/1example/读shp-点图层.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="e#14#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="238" />
-    <option name="y" value="332" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/1ORG/1example/点要素shp文件.py" />
+        <option value="$PROJECT_DIR$/1ORG/1example/点状shp.py" />
+        <option value="$PROJECT_DIR$/1ORG/[GIS与Python] 1 OGR-矢量数据读写管理.md" />
+        <option value="$PROJECT_DIR$/2GDAL/[GIS与Python] 2 GDAL-栅格数据读写管理.md" />
+        <option value="$PROJECT_DIR$/1ORG/1example/读shp-点图层.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -35,7 +100,18 @@
             <path>
               <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
+              <item name="0node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
               <item name="1ORG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
+              <item name="1ORG" type="462c0819:PsiDirectoryNode" />
+              <item name="1example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
@@ -52,18 +128,37 @@
               <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
               <item name="4Mapnik" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
+              <item name="9data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
+              <item name="9StudyMaterials" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/MarkdownPad 2/MarkdownPad2.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mycode\GISandPython\0node" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mycode\GISandPython\0data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -77,6 +172,85 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.读shp-点图层">
+    <configuration name="python2.7" type="PythonConfigurationType" factoryName="Python">
+      <module name="GISandPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\ArcGIS10.5\python2.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:/Python27/ArcGIS10.5/Scripts" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="读shp-点图层" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GISandPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1ORG/1example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1ORG/1example/读shp-点图层.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="点状shp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GISandPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1ORG/1example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\mycode\GISandPython\1ORG\1example\读shp-点图层.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.python2.7" />
+      <item itemvalue="Python.点状shp" />
+      <item itemvalue="Python.读shp-点图层" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.读shp-点图层" />
+        <item itemvalue="Python.点状shp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -88,39 +262,118 @@
       <option name="presentableId" value="Default" />
       <updated>1548301067245</updated>
       <workItem from="1548301069682" duration="49000" />
+      <workItem from="1548311441099" duration="2366000" />
+      <workItem from="1548313927637" duration="15000" />
+      <workItem from="1548318623048" duration="564000" />
+      <workItem from="1548319919371" duration="1607000" />
+      <workItem from="1548325754050" duration="631000" />
+      <workItem from="1548328850875" duration="704000" />
+      <workItem from="1548330499979" duration="375000" />
+      <workItem from="1548336037156" duration="1186000" />
+      <workItem from="1548339349102" duration="387000" />
+      <workItem from="1548399486378" duration="138000" />
+      <workItem from="1548400158793" duration="24000" />
+      <workItem from="1550500366485" duration="247000" />
+      <workItem from="1550543376501" duration="2883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49000" />
+    <option name="totallyTimeSpent" value="11176000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19705094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.52558786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3323782" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44475922" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32719547" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Python27/ArcGIS10.5/Lib/site-packages/osgeo/ogr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1462" column="28" lean-forward="true" selection-start-line="1462" selection-start-column="28" selection-end-line="1462" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/ArcGIS10.5/Lib/site-packages/osgeo/gdal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="1881" column="32" selection-start-line="1881" selection-start-column="32" selection-end-line="1881" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0node/[GIS与Python] 2 GDAL-栅格数据读写管理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0node/[GIS与Python] 1 OGR-矢量数据读写管理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="614">
+            <caret line="93" column="18" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="614">
+            <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0node/[GIS] GDAL和OGR+mapnik+proj.4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1ORG/1example/读shp-点图层.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
