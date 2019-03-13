@@ -22,6 +22,11 @@
 - descartes 运用matplotlib对空间数据画图
 - mercantile 球面墨卡托投影
 
+## 地图可视化
+1. basemap：
+2. pyechart：echart的python版，侧重于数据展示
+3. folium：leaflet在Python中的API接口包名为folium
+
 ## GIS工具
 - GeoPandas：整合了pandas,shapely,fiona,descartes,pyproj和rtrees，用于数据处理
 GeoDjango django出品，集成了GIS功能的门户网站程序
