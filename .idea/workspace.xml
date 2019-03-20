@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988b4990-8343-4fe9-8515-8dd5811a0a29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2Arcpy/DeleteDarkSide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/DeleteDarkSide1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/boundary__following.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/equal_reclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/file_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/getRandShape.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/layer_stacking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/shanding_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3AMap/poi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3AMap/poi/amap_poi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3AMap/polygon/amap_polygon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3AMap/polygon/coordinate_conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3AMap/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9Tools/coordinate_conversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2GDAL/2 [GDAL] 栅格数据读写管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/1GDAL/2 [GDAL] 栅格数据读写管理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3Proj/3 [Proj.4] Proj.4投影.md" beforeDir="false" afterPath="$PROJECT_DIR$/1Proj/3 [Proj.4] Proj.4投影.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4Mapnik/4 [mapnik] mapnik制图.md" beforeDir="false" afterPath="$PROJECT_DIR$/1Mapnik/4 [mapnik] mapnik制图.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[GIS] 矢量数据格式.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[OGR] 基础 1.1 驱动drvier与数据源datasource.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[OGR] 基础 1.2 layer图层.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[OGR] 基础 1.3 Feature要素.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[OGR] 基础 1.4 Geometry几何属性.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[OGR] 基础 1.5 Field属性字段.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[OGR] 总 OGR-矢量数据读写管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[OGR] 操作 拷贝.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1ORG/[OGR] 操作 查询.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[GIS与Python] Python与开源GIS - GDAL地理数据处理开源库.md" beforeDir="false" afterPath="$PROJECT_DIR$/[GIS与Python] Python与开源GIS - GDAL地理数据处理开源库.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +27,7 @@
     <SUITE FILE_PATH="coverage/GISandPython$shp_.coverage" NAME="读shp-点图层 Coverage Results" MODIFIED="1550543671995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1ORG/1example" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3AMap/polygon/amap_polygon.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,7 +74,7 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -99,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,13 +93,12 @@
             <path>
               <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
-              <item name="3AMap" type="462c0819:PsiDirectoryNode" />
+              <item name="1GDAL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
-              <item name="3AMap" type="462c0819:PsiDirectoryNode" />
-              <item name="polygon" type="462c0819:PsiDirectoryNode" />
+              <item name="1ORG" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
@@ -126,12 +109,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/3AMap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -376,17 +358,18 @@
       <workItem from="1552050531439" duration="1182000" />
       <workItem from="1552102981571" duration="3098000" />
       <workItem from="1552107876892" duration="558000" />
+      <workItem from="1552998904396" duration="994000" />
+      <workItem from="1553065745991" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38919000" />
+    <option name="totallyTimeSpent" value="39992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21179625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -495,52 +478,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1ORG/[GIS] 矢量数据格式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1ORG/[GIS] 矢量数据格式.md" />
     <entry file="file://$PROJECT_DIR$/2Arcpy/boundary__following.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3AMap/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3AMap/polygon/coordinate_conversion.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3AMap/poi/amap_poi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="e#129#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3AMap/polygon/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3AMap/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3AMap/polygon/amap_polygon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/3AMap/readme.md" />
+    <entry file="file://$PROJECT_DIR$/3AMap/polygon/coordinate_conversion.py" />
+    <entry file="file://$PROJECT_DIR$/3AMap/poi/amap_poi.py" />
+    <entry file="file://$PROJECT_DIR$/3AMap/polygon/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/3AMap/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/3AMap/polygon/amap_polygon.py" />
   </component>
 </project>
