@@ -103,7 +103,7 @@ band.GetMaximum(); band.GetMinimum() #最大、最小值，要先调用band.Comp
 |-|-|-|
 |未知或未指定类型 |gdalconst.GDT_Unknown| 0|
 |8位无符整型| gdalconst.GDT_Byte |1|
- |16位无符整型 |gdalconst.GDT_UInt16| 2|
+|16位无符整型 |gdalconst.GDT_UInt16| 2|
 |16位整型 |gdalconst.GDT_Int16| 3|
 |32位无符整型| gdalconst.GDT_UInt32| 4|
 |32位整型值 |gdalconst.GDT_Int32 |5|

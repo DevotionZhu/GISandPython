@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b742a081-9935-4476-90d7-99847e528fc7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1GDAL/2 [GDAL] 栅格数据读写管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/4 例：从多边形图层创建线图层.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/4 例：从线图层创建点图层.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/4 处理几何要素.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：为每只鸟创建凸包多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：从一个csv文件中新建shp文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：从属性列中获取唯一值的方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：创建地理区域分割的凸包多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：将小的多边形合并成大的多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：查找两点间最大的飞行速度和所耗时间.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：计算火山16000米内的城市个数--安全方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：计算火山16000米内的城市个数--该方法有缺陷.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 例：计算相邻点之间的距离.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/5 叠置分析 邻近分析 风力发电场选址 动物跟踪数据.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/将部分数据导出为新的shp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/1example/读shp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 0 总 OGR-矢量数据读写管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 1.1 基础 驱动drvier与数据源datasource.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 1.2 基础 layer图层.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 1.3 基础 Feature要素.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 1.4 基础 Geometry几何属性.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 1.5 基础 Field属性字段.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 2 处理不同的矢量文件.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 3 使用OGR过滤数据.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 4 处理几何要素.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 5 矢量数据的空间分析-缓冲区 距离 叠加分析.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 9 操作 拷贝.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1ORG/[OGR] 9 操作 查询.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1Proj/3 [Proj.4] Proj.4投影.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9StudyMaterials/python+gdal.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../[GIS] GDAL和OGR+mapnik+proj.4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../[GIS] GDAL和OGR+mapnik+proj.4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../[GIS与Python] Python与开源GIS - GDAL地理数据处理开源库.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../[GIS与Python] Python与开源GIS - GDAL地理数据处理开源库.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poi/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poi/amap_poi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/polygon/amap_polygon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="amap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amap" type="462c0819:PsiDirectoryNode" />
+              <item name="poi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amap" type="462c0819:PsiDirectoryNode" />
+              <item name="polygon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="amap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\ArcGIS10.5\python2.exe" />
+      <option name="WORKING_DIRECTORY" value="C:/Python27/ArcGIS10.5" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:/Python27/ArcGIS10.5/Scripts" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b742a081-9935-4476-90d7-99847e528fc7" name="Default Changelist" comment="" />
+      <created>1553914713248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553914713248</updated>
+      <workItem from="1553914715795" duration="137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="137000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/poi/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poi/amap_poi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polygon/amap_polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

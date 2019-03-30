@@ -45,41 +45,42 @@ def get_pois():
 def save_pois(pois):
     print "【Step】正在保存成shp文件..."
     # 创建shp
+    print "[step] 创建shp"
     gp = arcgisscripting.create()
     spat_ref = "4326"
     gp.CreateFeatureClass_management(config.out_dir, config.out_name, "POINT", "", "", "", spat_ref)
     out_path = os.path.join(config.out_dir, config.out_name)
 
     # 创建属性
+    print "[step] 创建属性"
     fields = []
     for field in config.save_field:
         fields.append(field[0])
         gp.AddField_management(out_path, field[0], field[1], field_length=field[2])
 
     # begin
+    print "[step] 开始保存POIS"
     cur = gp.InsertCursor(out_path)
     newRow = cur.newRow()
 
     for feature in pois:
+        print "[保存] %s" % str(feature)
         for attr_name in feature.keys():
             if attr_name == "location":
                 pnt = gp.CreateObject("point")
                 XY = feature[attr_name].split(",")
                 pnt.X, pnt.Y = coordinate_conversion.gcj02towgs84(float(XY[0]), float(XY[1]))
+                print "\tlocation : {}".format(pnt)
                 newRow.Shape = pnt
                 continue
             if attr_name in fields:
-                newRow.setValue(attr_name, feature[attr_name])
+                print "\t{} : {}".format(attr_name, feature[attr_name] )
+                try:
+                    newRow.setValue(attr_name,
+                        feature[attr_name]
+                    )
+                except:
+                    newRow.setValue(attr_name," ")
         cur.InsertRow(newRow)
 
     del cur, newRow
-
-
-if __name__ == '__main__':
-    # 【获得POIS】
-    # pois = get_pois()
-    pois = crawler_log.read_json(r'D:\mycode\GISandPython\3AMap\poi\data\pois2019-03-13 14-53-13.json')
-    print pois
-    # 【保存】
-    save_pois(pois)
-

@@ -14,6 +14,9 @@ def save_json(obj, out_dir, fn):
 
 
 def read_json(fpath):
+    import sys
+    reload(sys)
+    sys.setdefaultencoding("utf-8")
     with open(fpath, 'r') as fp:
         ret = json.load(fp)
         fp.close()

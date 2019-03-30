@@ -1,0 +1,5 @@
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+IDList=
+URL=http://restapi.amap.com/v3/place/text?city=%E5%8E%A6%E9%97%A8&citylimit=true&key=4fac3db866dcc3b8a735651d3a7db1c7&offset=20&output=json&page=1&types=%E5%85%AC%E5%9B%AD
