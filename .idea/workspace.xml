@@ -2,7 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988b4990-8343-4fe9-8515-8dd5811a0a29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1.1ORG/example/batchcut/batch_cut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1ORG/example/batchcut/cut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量_v1.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/clip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/delete_repetitive_geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/两两相交.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/创建polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/批量裁剪并合并.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/geocoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/ditu.amap.com.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/urls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/实例.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9学习资料/pyModis Documentation Release 2.0.6.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 0 总 OGR-矢量数据读写管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.1 基础 驱动drvier与数据源datasource.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.2 基础 layer图层.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.3 基础 Feature要素.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.4 基础 Geometry几何属性.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.5 基础 Field属性字段.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 2 处理不同的矢量文件.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 3 使用OGR过滤数据.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 4 处理几何要素.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 5 矢量数据的空间分析-缓冲区 距离 叠加分析.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 9 操作 拷贝.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 9 操作 查询.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/4 例：从多边形图层创建线图层.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/4 例：从线图层创建点图层.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/4 处理几何要素.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：为每只鸟创建凸包多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：从一个csv文件中新建shp文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：从属性列中获取唯一值的方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：创建地理区域分割的凸包多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：将小的多边形合并成大的多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：查找两点间最大的飞行速度和所耗时间.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：计算火山16000米内的城市个数--安全方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：计算火山16000米内的城市个数--该方法有缺陷.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：计算相邻点之间的距离.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 叠置分析 邻近分析 风力发电场选址 动物跟踪数据.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/将部分数据导出为新的shp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/读shp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/data/water_xm.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1 ORG/example/dist/调用例子.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2 OSR Proj/1example/例：投影整个点图层.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2 OSR Proj/1example/例：读取SRS-读取SRS具体信息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2 OSR Proj/[Python] OSR - 坐标系.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2 OSR Proj/[Python] Proj.4 - 坐标系.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/1GDAL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/chapter9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/为栅格数据添加地面控制点.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/将独立的栅格波段合成一张图像.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/[GDAL] 0 概述 - 栅格数据读写管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/[GDAL] 1.1 读写栅格数据.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3 GDAL/[GDAL] 坐标系 - 地面控制点or影像重投影.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1folium/.idea/1folium.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1folium/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1folium/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1folium/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1folium/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1folium/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1folium/[folium] 0 介绍.md" beforeDir="false" afterPath="$PROJECT_DIR$/1folium/[folium] 0 介绍.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/coordinate_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/coordinate_conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/crawler_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/crawler_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/amap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/WebAPI-高德地图.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/amap_code/AMap_adcode_citycode.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/amap_code/amap_poicode.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/amap_poi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/[2019-03-30 11-48-37] pois.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/xiamen_政府机构及社会团体.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/xiamen_政府机构及社会团体.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/xiamen_政府机构及社会团体.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/xiamen_政府机构及社会团体.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/polygon/Polygon示例.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/polygon/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/polygon/amap_polygon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.dbf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +113,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/GISandPython$amap_polygon.coverage" NAME="amap_polygon Coverage Results" MODIFIED="1552108321863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3AMap" />
-    <SUITE FILE_PATH="coverage/GISandPython$shp.coverage" NAME="将部分数据导出为新的shp Coverage Results" MODIFIED="1551019925425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1ORG/1example" />
+    <SUITE FILE_PATH="coverage/GISandPython$__.coverage" NAME="栅格转矢量+裁剪-批量 Coverage Results" MODIFIED="1559730781966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy" />
+    <SUITE FILE_PATH="coverage/GISandPython$geocoding.coverage" NAME="geocoding Coverage Results" MODIFIED="1562162583991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3CrawlerOfGIS/Tools" />
+    <SUITE FILE_PATH="coverage/GISandPython$.coverage" NAME="批量裁剪并合并 Coverage Results" MODIFIED="1555252143151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy" />
+    <SUITE FILE_PATH="coverage/GISandPython$polygon.coverage" NAME="创建polygon Coverage Results" MODIFIED="1554121378748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy" />
+    <SUITE FILE_PATH="coverage/GISandPython$shp.coverage" NAME="创建面状shp文件 Coverage Results" MODIFIED="1554192567469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.1 ORG/1example" />
+    <SUITE FILE_PATH="coverage/GISandPython$cut.coverage" NAME="cut Coverage Results" MODIFIED="1555237778905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.1ORG/example/batchcut" />
+    <SUITE FILE_PATH="coverage/GISandPython$shptotxt__1_.coverage" NAME="shptotxt (1) Coverage Results" MODIFIED="1555067497819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.1ORG/example/shptotxt" />
     <SUITE FILE_PATH="coverage/GISandPython$shp_.coverage" NAME="读shp-点图层 Coverage Results" MODIFIED="1550543671995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1ORG/1example" />
+    <SUITE FILE_PATH="coverage/GISandPython$shptotxt.coverage" NAME="shptotxt Coverage Results" MODIFIED="1555032333063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.1 ORG/example" />
+    <SUITE FILE_PATH="coverage/GISandPython$___v1_1.coverage" NAME="栅格转矢量+裁剪-批量_v1.1 Coverage Results" MODIFIED="1559742988428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +138,8 @@
     <findStrings>
       <find>geometry</find>
       <find>getParkPoiid</find>
+      <find>Ring()</find>
+      <find>Ring</find>
     </findStrings>
     <replaceStrings>
       <replace>get_pois</replace>
@@ -55,11 +166,46 @@
         <option value="$PROJECT_DIR$/3AMap/amap_poi.py" />
         <option value="$PROJECT_DIR$/3AMap/amap_polygon.py" />
         <option value="$PROJECT_DIR$/3AMap/polygon/amap_polygon.py" />
+        <option value="$PROJECT_DIR$/1.1 ORG/1example/创建面.py" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/polygon/amap_polygon.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/创建polygon.py" />
+        <option value="$PROJECT_DIR$/1.1 ORG/[OGR] 1.5 基础 Field属性字段.md" />
+        <option value="$PROJECT_DIR$/1.1 ORG/1example/创建面状shp文件.py" />
+        <option value="$PROJECT_DIR$/1.1 ORG/example.py" />
+        <option value="$PROJECT_DIR$/1.1 ORG/example/shptotxt.py" />
+        <option value="$PROJECT_DIR$/1.1 ORG/example/dist/调用例子.txt" />
+        <option value="$PROJECT_DIR$/1.1ORG/[OGR] 4 处理几何要素.md" />
+        <option value="$PROJECT_DIR$/1.1ORG/example/shptotxt/shptotxt.py" />
+        <option value="$PROJECT_DIR$/1.1ORG/[OGR] 3 使用OGR过滤数据.md" />
+        <option value="$PROJECT_DIR$/1.1ORG/[OGR] 4 Geometry-处理几何要素.md" />
+        <option value="$PROJECT_DIR$/1.1ORG/example/batchcut/batch_cut.py" />
+        <option value="$PROJECT_DIR$/1.1ORG/[OGR] 3 属性选择 空间选择-使用OGR过滤数据.md" />
+        <option value="$PROJECT_DIR$/1.1ORG/example/batchcut/cut.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/批量裁剪并合并.py" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/urls.txt" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/poiTipslite/urls" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/poiTipslite/poiTipslite_urls.txt" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/poiInfo_urls.txt" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/实例.txt" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/ditu.amap.com.py" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/urls.txt" />
+        <option value="$PROJECT_DIR$/2Arcpy/part1.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/栅格转矢量+裁剪-批量.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量_v1.1.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/script.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/clip.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/两两相交.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/delete_repetitive_geometry.py" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/Tools/geocoding.py" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/param_poiinfo.py" />
+        <option value="$PROJECT_DIR$/1folium/[folium] 0 介绍.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="268" />
+    <option name="y" value="90" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -82,17 +228,7 @@
             <path>
               <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
-              <item name="1GDAL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
-              <item name="1ORG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
-              <item name="9Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="9data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -102,20 +238,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CrawlerOfPython/1project/Precipitation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\mycode\GISandPython\3AMap\poi" />
-      <recent name="D:\mycode\GISandPython\3AMap\polygon" />
-      <recent name="D:\mycode\GISandPython" />
-      <recent name="D:\mycode\GISandPython\5Arcpy" />
-      <recent name="D:\mycode\GISandPython\9Tools" />
+      <recent name="D:\mycode\GISandPython\9学习资料" />
+      <recent name="D:\mycode\GISandPython\2Arcpy" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\poiInfo" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\detail" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\old\API" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mycode\GISandPython\2Arcpy\ArcGISTools\提取栅格外框线-批量" />
+      <recent name="D:\mycode\GISandPython\1.1 ORG\data" />
       <recent name="D:\mycode\GISandPython\3AMap" />
       <recent name="D:\mycode\GISandPython\0data" />
     </key>
@@ -132,8 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.amap_polygon">
-    <configuration name="amap_polygon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.geocoding">
+    <configuration name="批量裁剪并合并" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GISandPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,12 +279,100 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3AMap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2Arcpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\mycode\GISandPython\3AMap\polygon\amap_polygon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2Arcpy/批量裁剪并合并.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="栅格转矢量+裁剪-批量" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GISandPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2Arcpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2Arcpy/栅格转矢量+裁剪-批量.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="栅格转矢量+裁剪-批量_v1.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GISandPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量_v1.1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GISandPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.1ORG/example/batchcut" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.1ORG/example/batchcut/cut.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="geocoding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GISandPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3CrawlerOfGIS/Tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3CrawlerOfGIS/Tools/geocoding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,123 +388,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python27\ArcGIS10.5\python2.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="C:/Anaconda3" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:/Python27/ArcGIS10.5/Scripts" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="读shp-点图层" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GISandPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1ORG/1example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\mycode\GISandPython\1ORG\1example\读shp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="点状shp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GISandPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1ORG/1example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\mycode\GISandPython\1ORG\1example\读shp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="将部分数据导出为新的shp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GISandPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1ORG/1example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1ORG/1example/将部分数据导出为新的shp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="将部分数据导出为新的shp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GISandPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1ORG/1example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1ORG/1example/将部分数据导出为新的shp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="将部分数据导出为新的shp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GISandPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1ORG/1example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1ORG/1example/将部分数据导出为新的shp.py" />
+      <option name="SCRIPT_NAME" value="C:/Anaconda3/Scripts" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,15 +405,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.python2" />
-      <item itemvalue="Python.点状shp" />
-      <item itemvalue="Python.读shp-点图层" />
-      <item itemvalue="Python.amap_polygon" />
+      <item itemvalue="Python.批量裁剪并合并" />
+      <item itemvalue="Python.栅格转矢量+裁剪-批量" />
+      <item itemvalue="Python.栅格转矢量+裁剪-批量_v1.1" />
+      <item itemvalue="Python.cut" />
+      <item itemvalue="Python.geocoding" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.amap_polygon" />
-        <item itemvalue="Python.读shp-点图层" />
-        <item itemvalue="Python.点状shp" />
+        <item itemvalue="Python.geocoding" />
+        <item itemvalue="Python.栅格转矢量+裁剪-批量_v1.1" />
+        <item itemvalue="Python.栅格转矢量+裁剪-批量" />
+        <item itemvalue="Python.批量裁剪并合并" />
+        <item itemvalue="Python.cut" />
       </list>
     </recent_temporary>
   </component>
@@ -350,31 +470,89 @@
       <workItem from="1552998904396" duration="994000" />
       <workItem from="1553065745991" duration="79000" />
       <workItem from="1553129162605" duration="22000" />
+      <workItem from="1554120734187" duration="1037000" />
+      <workItem from="1554190538612" duration="2248000" />
+      <workItem from="1554994238537" duration="2251000" />
+      <workItem from="1555021210446" duration="2646000" />
+      <workItem from="1555024073339" duration="231000" />
+      <workItem from="1555026909772" duration="373000" />
+      <workItem from="1555028159102" duration="4789000" />
+      <workItem from="1555033158895" duration="455000" />
+      <workItem from="1555033706834" duration="168000" />
+      <workItem from="1555036983705" duration="595000" />
+      <workItem from="1555055330067" duration="710000" />
+      <workItem from="1555067084060" duration="614000" />
+      <workItem from="1555067926195" duration="31000" />
+      <workItem from="1555140283892" duration="632000" />
+      <workItem from="1555228365835" duration="8519000" />
+      <workItem from="1555244106647" duration="10010000" />
+      <workItem from="1555288949413" duration="205000" />
+      <workItem from="1555331380249" duration="317000" />
+      <workItem from="1555406078498" duration="1413000" />
+      <workItem from="1557301666899" duration="745000" />
+      <workItem from="1557302637794" duration="227000" />
+      <workItem from="1557402511334" duration="76000" />
+      <workItem from="1559462486530" duration="2758000" />
+      <workItem from="1559467659313" duration="5788000" />
+      <workItem from="1559703163008" duration="1823000" />
+      <workItem from="1559706149343" duration="1150000" />
+      <workItem from="1559707398512" duration="259000" />
+      <workItem from="1559710488992" duration="1495000" />
+      <workItem from="1559724465280" duration="413000" />
+      <workItem from="1559724903625" duration="797000" />
+      <workItem from="1559725728496" duration="5553000" />
+      <workItem from="1559739183063" duration="1003000" />
+      <workItem from="1559741197666" duration="2200000" />
+      <workItem from="1559744260593" duration="33000" />
+      <workItem from="1559780631924" duration="68000" />
+      <workItem from="1559792243053" duration="646000" />
+      <workItem from="1559802781711" duration="904000" />
+      <workItem from="1559821879172" duration="118000" />
+      <workItem from="1559866003635" duration="1208000" />
+      <workItem from="1559900834506" duration="2000" />
+      <workItem from="1560231160475" duration="659000" />
+      <workItem from="1560920179848" duration="163000" />
+      <workItem from="1560927323889" duration="794000" />
+      <workItem from="1562125134034" duration="1685000" />
+      <workItem from="1562160487255" duration="2192000" />
+      <workItem from="1562305862336" duration="19000" />
+      <workItem from="1562481088617" duration="19000" />
+      <workItem from="1564487775447" duration="77000" />
+      <workItem from="1564727700614" duration="1020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40014000" />
+    <option name="totallyTimeSpent" value="111152000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21447721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2386059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3186969" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44475922" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7774799" weight="0.33569404" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.44475922" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.35977337" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32719547" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22252011" side_tool="true" visible="true" weight="0.33569404" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49262735" weight="0.2719547" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4899464" weight="0.30311614" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -397,60 +575,118 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/ArcGIS10.5/Lib/site-packages/osgeo/gdal.py">
+    <entry file="file://$PROJECT_DIR$/1.1ORG/example/shptotxt/out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="1881" column="32" selection-start-line="1881" selection-start-column="32" selection-end-line="1881" selection-end-column="32" />
+        <state relative-caret-position="-98325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1ORG/example/shptotxt/dist/out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/osgeo/ogr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="6057" column="8" selection-start-line="6057" selection-start-column="8" selection-end-line="6057" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0node/[GIS与Python] 2 GDAL-栅格数据读写管理.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/1.1ORG/[OGR] 4 Geometry-处理几何要素.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="614">
-            <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <first_editor relative-caret-position="-1178">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0node/[GIS] GDAL和OGR+mapnik+proj.4.md" />
-    <entry file="file://$PROJECT_DIR$/0node/[GIS与Python] 1 OGR-矢量数据读写管理.md" />
-    <entry file="file://$PROJECT_DIR$/0node/1 [OGR] Geometry.md" />
-    <entry file="file://$PROJECT_DIR$/0node/0 [GIS与Python] Python与开源GIS - GDAL地理数据处理开源库.md" />
-    <entry file="file://C:/Python27/ArcGIS10.5/Lib/site-packages/osgeo/ogr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="744" column="72" selection-start-line="744" selection-start-column="56" selection-end-line="744" selection-end-column="72" />
+    <entry file="file://$PROJECT_DIR$/1.1ORG/[OGR] 1.2 基础 layer图层.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="33" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0node/1 [OGR] 拷贝.md" />
-    <entry file="file://$PROJECT_DIR$/0node/1 [OGR] 0 OGR-矢量数据读写管理.md" />
-    <entry file="file://$PROJECT_DIR$/0node/1 [OGR] 属性字段.md" />
-    <entry file="file://$PROJECT_DIR$/0node/1 [OGR] 要素添加、更新和删除.md" />
-    <entry file="file://$PROJECT_DIR$/1ORG/1example/将部分数据导出为新的shp.py">
+    <entry file="file://$PROJECT_DIR$/1.1ORG/example/shptotxt/shptotxt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="144">
+          <caret line="103" column="51" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="51" />
           <folding>
-            <element signature="e#36#46#0" expanded="true" />
+            <element signature="e#176#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1ORG/1example/读shp.py">
+    <entry file="file://C:/Python27/ArcGIS10.5/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="124">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/ArcGIS/Desktop10.5/arcpy/arcpy/arc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1ORG/[OGR] 9 操作 拷贝.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="155">
+            <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1ORG/[OGR] 3 属性选择 空间选择-使用OGR过滤数据.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="328">
+            <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/ArcGIS/Desktop10.5/arcpy/arcpy/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="629" column="10" selection-start-line="629" selection-start-column="1" selection-end-line="629" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1ORG/example/batchcut/batch_cut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1ORG/example/batchcut/cut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="18" />
           <folding>
-            <element signature="e#14#27#0" expanded="true" />
+            <element signature="e#172#193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/[GIS] GDAL和OGR+mapnik+proj.4.md">
+    <entry file="file://C:/Python27/ArcGIS10.5/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/get_detail_info.py" />
+    <entry file="file://$PROJECT_DIR$/1.3GDAL/[GDAL] 1.1 读写栅格数据.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -458,25 +694,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/[GIS与Python] Python与开源GIS - GDAL地理数据处理开源库.md">
+    <entry file="file://$PROJECT_DIR$/2Arcpy/批量裁剪并合并.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/pnt.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/old/API/poi/amap_poi.py" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/subway/process_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/poi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="e#417#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/road.geojson" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/index.html" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/package.json" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/index.js" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiTipslite/urls" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiTipslite/poiTipslite_urls.txt" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/poiInfo_urls.txt" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/pois_detail2019-03-12 15-10-42.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/0 WebAPI-高德地图.url" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="122" column="67" lean-forward="true" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/ArcGIS10.5/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/ditu.amap.com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/实例.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/urls.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/part1.py" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/node/[ArcPy] 参数篇.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="443">
-            <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <first_editor relative-caret-position="285">
+            <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1ORG/[GIS] 矢量数据格式.md" />
-    <entry file="file://$PROJECT_DIR$/2Arcpy/boundary__following.py">
+    <entry file="file://$PROJECT_DIR$/2Arcpy/栅格转矢量+裁剪-批量.py" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量_v1.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+          <folding>
+            <element signature="e#183#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/delete_repetitive_geometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/clip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/两两相交.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#171#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/Tools/geocoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="e#177#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/param_poiinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#501#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1folium/code/加载高德地图.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3AMap/readme.md" />
-    <entry file="file://$PROJECT_DIR$/3AMap/polygon/coordinate_conversion.py" />
-    <entry file="file://$PROJECT_DIR$/3AMap/poi/amap_poi.py" />
-    <entry file="file://$PROJECT_DIR$/3AMap/polygon/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/3AMap/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/3AMap/polygon/amap_polygon.py" />
+    <entry file="file://$PROJECT_DIR$/0ospybook/[ospybook] Python库——与地理数据的简单交互操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1folium/[folium] 0 介绍.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1Mapnik/4 [mapnik] mapnik制图.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-530">
+            <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

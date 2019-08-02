@@ -10,8 +10,8 @@ ee = 0.00669342162296594323  # 扁率
 def wgs84togcj02(lng, lat):
     """
     WGS84转GCJ02(火星坐标系)
-    :param lng:WGS84坐标系的经度
-    :param lat:WGS84坐标系的纬度
+    :param lng:WGS84坐标系的经度  大
+    :param lat:WGS84坐标系的纬度  小
     :return:
     """
     if out_of_china(lng, lat):  # 判断是否在国内

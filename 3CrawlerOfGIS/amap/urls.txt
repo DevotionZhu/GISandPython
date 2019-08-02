@@ -1,0 +1,50 @@
+# 【POI】
+https://lbs.amap.com/api/webservice/summary/
+
+# 【在amap上查看POI】
+https://ditu.amap.com/place/
+
+# 【detail】
+https://ditu.amap.com/detail/get/detail?id=B0FFK7QH8K
+
+
+# 【poiTipslite】
+https://gaode.com/service/poiTipslite?&city=110000&geoobj=116.298521%7C39.949916%7C116.302786%7C39.951233&words=%E5%8D%8A%E5%A3%81%E8%A1%97%E5%8D%97%E8%B7%AF
+【参数】
+1. city：城市
+2. geoobj：范围
+3. words：关键字
+
+【测试】
+1. 【返回小区范围】https://gaode.com/service/poiTipslite?&city=350200&geoobj=117.857522%7C24.327272%7C118.582646%7C24.665945&words=平阳里
+2.
+
+# 【poiInfo】
+- 【旧的URL】https://gaode.com/service/poiInfo?query_type=IDQ&pagesize=20&pagenum=1&qii=true&cluster_state=5&need_utd=true&utd_sceneid=1000&div=PC1000&addr_poi_merge=true&is_classify=true&zoom=11&id=B022F0071G&city=341003
+- 【新的】https://www.amap.com/service/poiInfo?query_type=TQUERY&pagesize=20&pagenum=1&qii=true&cluster_state=5&need_utd=true&utd_sceneid=1000&div=PC1000&addr_poi_merge=true&is_classify=true&zoom=15.72&city=350200&geoobj=118.109681%7C24.426534%7C118.137227%7C24.439405&keywords=%E5%8E%A6%E9%97%A8%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2
+- https://ditu.amap.com/service/poiInfo?query_type=TQUERY&pagesize=45&pagenum=1&qii=true&cluster_state=5&need_utd=true&utd_sceneid=1000&div=PC1000&addr_poi_merge=true&is_classify=true&zoom=12&city=440100&geoobj=113.22766%7C22.807345%7C113.722045%7C22.908896&_src=around&keywords=小区
+- https://gaode.com/service/poiInfo?query_type=IDQ&pagesize=20&pagenum=1&qii=true&cluster_state=5&need_utd=true&utd_sceneid=1000&div=PC1000&addr_poi_merge=true&is_classify=true&zoom=11&id=B022F0071G&city=341003
+
+## https://www.amap.com/service/poiInfo?
+【参数】
+- query_type
+    - TQUERY
+    - IDQ
+- qii
+    - true
+- need_utd
+    - true
+- cluster_state
+    - 5
+- pagesize
+    - 20
+- pagenum
+    - 1
+
+
+【测试】
+1. https://www.amap.com/service/poiInfo?query_type=TQUERY&pagesize=20&pagenum=1&qii=true&cluster_state=5&need_utd=true&utd_sceneid=1000&div=PC1000&addr_poi_merge=true&is_classify=true&zoom=15.72&city=350200&geoobj=118.109681%7C24.426534%7C118.137227%7C24.439405&keywords=建筑物
+
+## https://ditu.amap.com/service/poiInfo?
+【测试】
+1. https://ditu.amap.com/service/poiInfo?query_type=TQUERY&pagesize=20&pagenum=1&qii=true&cluster_state=5&need_utd=true&utd_sceneid=1000&div=PC1000&addr_poi_merge=true&is_classify=true&zoom=12&city=350200&geoobj=117.857522%7C24.327272%7C118.582646%7C24.665945&_src=around&keywords=小区

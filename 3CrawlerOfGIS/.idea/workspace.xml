@@ -2,50 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b04744-e8a8-48de-aeb1-2c5575f3434a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1.1ORG/example/batchcut/batch_cut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.1ORG/example/batchcut/cut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2Arcpy/ArcGISTools/提取栅格外框线-批量/script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量_v1.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2Arcpy/clip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2Arcpy/delete_repetitive_geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2Arcpy/两两相交.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2Arcpy/创建polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2Arcpy/批量裁剪并合并.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/geocoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amap/POI/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amap/POI/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amap/poiInfo/ditu.amap.com.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amap/urls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实例.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1GDAL/2 [GDAL] 栅格数据读写管理.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/4 例：从多边形图层创建线图层.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/4 例：从线图层创建点图层.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/4 处理几何要素.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：为每只鸟创建凸包多边形.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：从一个csv文件中新建shp文件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：从属性列中获取唯一值的方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：创建地理区域分割的凸包多边形.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：将小的多边形合并成大的多边形.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：查找两点间最大的飞行速度和所耗时间.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：计算火山16000米内的城市个数--安全方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：计算火山16000米内的城市个数--该方法有缺陷.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 例：计算相邻点之间的距离.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/5 叠置分析 邻近分析 风力发电场选址 动物跟踪数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/将部分数据导出为新的shp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/1example/读shp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 0 总 OGR-矢量数据读写管理.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 1.1 基础 驱动drvier与数据源datasource.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 1.2 基础 layer图层.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 1.3 基础 Feature要素.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 1.4 基础 Geometry几何属性.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 1.5 基础 Field属性字段.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 2 处理不同的矢量文件.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 3 使用OGR过滤数据.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 4 处理几何要素.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 5 矢量数据的空间分析-缓冲区 距离 叠加分析.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 9 操作 拷贝.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1ORG/[OGR] 9 操作 查询.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1Proj/3 [Proj.4] Proj.4投影.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 0 总 OGR-矢量数据读写管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 1.1 基础 驱动drvier与数据源datasource.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 1.2 基础 layer图层.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 1.3 基础 Feature要素.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 1.4 基础 Geometry几何属性.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 1.5 基础 Field属性字段.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 2 处理不同的矢量文件.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 3 使用OGR过滤数据.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 4 处理几何要素.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 5 矢量数据的空间分析-缓冲区 距离 叠加分析.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 9 操作 拷贝.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/[OGR] 9 操作 查询.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/4 例：从多边形图层创建线图层.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/4 例：从线图层创建点图层.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/4 处理几何要素.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：为每只鸟创建凸包多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：从一个csv文件中新建shp文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：从属性列中获取唯一值的方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：创建地理区域分割的凸包多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：将小的多边形合并成大的多边形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：查找两点间最大的飞行速度和所耗时间.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：计算火山16000米内的城市个数--安全方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：计算火山16000米内的城市个数--该方法有缺陷.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 例：计算相邻点之间的距离.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/5 叠置分析 邻近分析 风力发电场选址 动物跟踪数据.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/将部分数据导出为新的shp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/code/读shp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1 ORG/data/water_xm.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.2 OSR Proj/1example/例：投影整个点图层.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.2 OSR Proj/1example/例：读取SRS-读取SRS具体信息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.2 OSR Proj/[Python] OSR - 坐标系.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.2 OSR Proj/[Python] Proj.4 - 坐标系.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/.idea/1GDAL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/1example/chapter9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/1example/listing9_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/1example/listing9_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/1example/listing9_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/1example/listing9_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/1example/listing9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/1example/为栅格数据添加地面控制点.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/1example/将独立的栅格波段合成一张图像.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/[GDAL] 0 概述 - 栅格数据读写管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/[GDAL] 1.1 读写栅格数据.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3 GDAL/[GDAL] 坐标系 - 地面控制点or影像重投影.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools/coordinate_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/coordinate_conversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tools/crawler_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/crawler_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/amap/poi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/amap_poi.py" beforeDir="false" afterPath="$PROJECT_DIR$/amap/poi/amap_poi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/amap/poi/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/data/pois2019-03-13 14-53-13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/data/福建省港口.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/data/福建省港口.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/data/福建省港口.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/data/福建省港口.shp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amap/poi/data/福建省港口.shx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9StudyMaterials/python+gdal.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../[GIS] GDAL和OGR+mapnik+proj.4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../[GIS] GDAL和OGR+mapnik+proj.4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../[GIS与Python] Python与开源GIS - GDAL地理数据处理开源库.md" beforeDir="false" afterPath="$PROJECT_DIR$/../[GIS与Python] Python与开源GIS - GDAL地理数据处理开源库.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/.idea/amap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/WebAPI-高德地图.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/amap_code/AMap_adcode_citycode.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/amap_code/amap_poicode.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/amap_poi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/data/[2019-03-30 11-48-37] pois.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/data/xiamen_政府机构及社会团体.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/data/xiamen_政府机构及社会团体.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/data/xiamen_政府机构及社会团体.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/poi/data/xiamen_政府机构及社会团体.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/polygon/Polygon示例.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/polygon/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/polygon/amap_polygon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amap/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/amap/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9data/park_polygon_shp/park_polygon.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/../9data/park_polygon_shp/park_polygon.dbf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,49 +104,49 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/3AMap$amap_polygon.coverage" NAME="amap_polygon Coverage Results" MODIFIED="1552375431677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polygon" />
     <SUITE FILE_PATH="coverage/CrawlerOfGIS$amap_poi__1_.coverage" NAME="amap_poi (1) Coverage Results" MODIFIED="1553915522908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/poi" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$param_poiinfo_v2_20190730.coverage" NAME="param_poiinfo_v2_20190730 Coverage Results" MODIFIED="1564488516868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$amap_subway.coverage" NAME="amap_subway Coverage Results" MODIFIED="1557736269572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$param_poiinfo.coverage" NAME="param_poiinfo Coverage Results" MODIFIED="1564487919437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$amap_line.coverage" NAME="amap_line Coverage Results" MODIFIED="1557709199987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/line" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$get_detail_info.coverage" NAME="get_detail_info Coverage Results" MODIFIED="1554787745716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/detail" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$amap_polygon__1_.coverage" NAME="amap_polygon (1) Coverage Results" MODIFIED="1554693023149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/polygon" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1557628816110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/API/poi" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$process_json.coverage" NAME="process_json Coverage Results" MODIFIED="1557740694219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/subway" />
     <SUITE FILE_PATH="coverage/3AMap$amap_poi.coverage" NAME="amap_poi Coverage Results" MODIFIED="1552460374555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/poi" />
-    <SUITE FILE_PATH="coverage/CrawlerOfGIS$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1553917834308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/poi" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$amap.coverage" NAME="amap Coverage Results" MODIFIED="1558972360257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1554858155151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/polygon" />
+    <SUITE FILE_PATH="coverage/CrawlerOfGIS$amap_polygon.coverage" NAME="amap_polygon Coverage Results" MODIFIED="1555415975827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amap/line" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/amap/poi/amap_poi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-              <folding>
-                <element signature="e#129#142#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/amap/poi/__init__.py">
+        <entry file="file://$PROJECT_DIR$/amap/param_poiinfo_v2_20190730.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="335">
+              <caret line="27" selection-end-line="48" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tools/crawler_log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-              <folding>
-                <element signature="e#15#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/amap/poi/config.py">
+        <entry file="file://$PROJECT_DIR$/amap/subway/amap_subway.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -119,12 +167,20 @@
       <find>spec</find>
       <find>attrName</find>
       <find>s</find>
+      <find>area</find>
+      <find>厦门海底世界</find>
+      <find>湖里公园</find>
+      <find>sa</find>
+      <find>save</find>
+      <find>config.save_field</find>
+      <find>|</find>
     </findStrings>
     <replaceStrings>
       <replace>get_pois_info</replace>
       <replace>get_poi_detail</replace>
       <replace>save_pois_shp</replace>
       <replace>attr_name</replace>
+      <replace>params[&quot;save_field&quot;]</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,16 +194,39 @@
         <option value="$PROJECT_DIR$/poi/config.py" />
         <option value="$PROJECT_DIR$/poi/amap_poi.py" />
         <option value="$PROJECT_DIR$/poi/amap/amap_poi.py" />
-        <option value="$PROJECT_DIR$/amap/polygon/amap_polygon.py" />
-        <option value="$PROJECT_DIR$/Tools/crawler_log.py" />
         <option value="$PROJECT_DIR$/amap/poi/config.py" />
         <option value="$PROJECT_DIR$/amap/poi/amap_poi.py" />
         <option value="$PROJECT_DIR$/amap/poi/__init__.py" />
+        <option value="$PROJECT_DIR$/amap/detail/get_detail_info.py" />
+        <option value="$PROJECT_DIR$/amap/polygon/amap_polygon.py" />
+        <option value="$PROJECT_DIR$/amap/polygon/__init__.py" />
+        <option value="$PROJECT_DIR$/Tools/crawler_log.py" />
+        <option value="$PROJECT_DIR$/amap/line/amap_polygon.py" />
+        <option value="$PROJECT_DIR$/amap/API/poi/__init__.py" />
+        <option value="$PROJECT_DIR$/amap/API/poi/amap_poi.py" />
+        <option value="$PROJECT_DIR$/amap/API/poi/config.py" />
+        <option value="$PROJECT_DIR$/amap/API/detail/line.py" />
+        <option value="$PROJECT_DIR$/amap/poi.py" />
+        <option value="$PROJECT_DIR$/amap/detail.py" />
+        <option value="$PROJECT_DIR$/amap/line/amap_line.py" />
+        <option value="$PROJECT_DIR$/amap/config.py" />
+        <option value="$PROJECT_DIR$/amap/参数配置" />
+        <option value="$PROJECT_DIR$/amap/config.json" />
+        <option value="$PROJECT_DIR$/amap/参数配置.md" />
+        <option value="$PROJECT_DIR$/amap/readme.md" />
+        <option value="$PROJECT_DIR$/amap/amap_subway.py" />
+        <option value="$PROJECT_DIR$/amap/subway/xiamen/1.json" />
+        <option value="$PROJECT_DIR$/Tools/coordinate_conversion.py" />
+        <option value="$PROJECT_DIR$/amap/subway/process_json.py" />
+        <option value="$PROJECT_DIR$/amap/amap.py" />
+        <option value="$PROJECT_DIR$/amap/param_poiinfo.py" />
+        <option value="$PROJECT_DIR$/amap/param_poiinfo_v2_20190730.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="365" />
+    <option name="y" value="235" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -169,30 +248,6 @@
               <item name="3CrawlerOfGIS" type="462c0819:PsiDirectoryNode" />
               <item name="amap" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CrawlerOfGIS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3CrawlerOfGIS" type="462c0819:PsiDirectoryNode" />
-              <item name="amap" type="462c0819:PsiDirectoryNode" />
-              <item name="poi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrawlerOfGIS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3CrawlerOfGIS" type="462c0819:PsiDirectoryNode" />
-              <item name="amap" type="462c0819:PsiDirectoryNode" />
-              <item name="poi" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrawlerOfGIS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3CrawlerOfGIS" type="462c0819:PsiDirectoryNode" />
-              <item name="amap" type="462c0819:PsiDirectoryNode" />
-              <item name="polygon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrawlerOfGIS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3CrawlerOfGIS" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -202,23 +257,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\poi" />
-      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap" />
-      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\poi\amap" />
-      <recent name="D:\mycode\GISandPython\3AMap\poi\amap_poicode" />
-      <recent name="D:\mycode\GISandPython\3AMap\Tools" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\API\detail" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\line" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\detail" />
       <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\polygon" />
-      <recent name="D:\mycode\GISandPython\3AMap\old_code" />
-      <recent name="D:\mycode\GISandPython\3AMap\poi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\subway\xiamen" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\subway" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\API" />
+      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\data\风景名胜" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RunManager" selected="Python.param_poiinfo_v2_20190730">
     <configuration name="Scripts" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CrawlerOfGIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +313,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="amap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CrawlerOfGIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,12 +321,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amap/poi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amap/poi/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amap/amap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +335,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="amap_poi (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="amap_subway" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CrawlerOfGIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,12 +343,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amap/poi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amap/poi/amap_poi.py" />
+      <option name="SCRIPT_NAME" value="D:\mycode\GISandPython\3CrawlerOfGIS\amap\subway\amap_subway.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,7 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="amap_poi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="param_poiinfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CrawlerOfGIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,12 +365,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/poi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\mycode\GISandPython\3CrawlerOfGIS\amap\poi\amap_poi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amap/param_poiinfo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,7 +379,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="amap_polygon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="param_poiinfo_v2_20190730" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CrawlerOfGIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,12 +387,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polygon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polygon/amap_polygon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amap/param_poiinfo_v2_20190730.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="process_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CrawlerOfGIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amap/subway" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amap/subway/process_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,17 +425,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Scripts" />
-      <item itemvalue="Python.amap_polygon" />
-      <item itemvalue="Python.amap_poi" />
-      <item itemvalue="Python.amap_poi (1)" />
-      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.amap" />
+      <item itemvalue="Python.amap_subway" />
+      <item itemvalue="Python.process_json" />
+      <item itemvalue="Python.param_poiinfo" />
+      <item itemvalue="Python.param_poiinfo_v2_20190730" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.amap_poi (1)" />
-        <item itemvalue="Python.amap_poi" />
-        <item itemvalue="Python.amap_polygon" />
+        <item itemvalue="Python.param_poiinfo_v2_20190730" />
+        <item itemvalue="Python.param_poiinfo" />
+        <item itemvalue="Python.amap" />
+        <item itemvalue="Python.process_json" />
+        <item itemvalue="Python.amap_subway" />
       </list>
     </recent_temporary>
   </component>
@@ -380,11 +461,45 @@
       <workItem from="1553914855645" duration="2197000" />
       <workItem from="1553917300190" duration="135000" />
       <workItem from="1553917599926" duration="419000" />
+      <workItem from="1553952606030" duration="37000" />
+      <workItem from="1554689897391" duration="9334000" />
+      <workItem from="1554708717686" duration="21000" />
+      <workItem from="1554787086373" duration="823000" />
+      <workItem from="1554808212932" duration="6757000" />
+      <workItem from="1554858216425" duration="10000" />
+      <workItem from="1555412753706" duration="3953000" />
+      <workItem from="1555418993605" duration="276000" />
+      <workItem from="1555501235248" duration="57000" />
+      <workItem from="1555924101580" duration="35000" />
+      <workItem from="1556443022435" duration="1210000" />
+      <workItem from="1556462723953" duration="864000" />
+      <workItem from="1556465947597" duration="1599000" />
+      <workItem from="1556527252650" duration="316000" />
+      <workItem from="1557301622754" duration="42000" />
+      <workItem from="1557628303772" duration="591000" />
+      <workItem from="1557642875541" duration="328000" />
+      <workItem from="1557708922067" duration="2229000" />
+      <workItem from="1557713218204" duration="735000" />
+      <workItem from="1557714748745" duration="5529000" />
+      <workItem from="1557730828794" duration="10043000" />
+      <workItem from="1557752868610" duration="542000" />
+      <workItem from="1557755327543" duration="95000" />
+      <workItem from="1558019704529" duration="887000" />
+      <workItem from="1558024438524" duration="264000" />
+      <workItem from="1558045184303" duration="1048000" />
+      <workItem from="1558146804853" duration="1194000" />
+      <workItem from="1558617086497" duration="468000" />
+      <workItem from="1558686511841" duration="73000" />
+      <workItem from="1558967382117" duration="5012000" />
+      <workItem from="1559286907478" duration="117000" />
+      <workItem from="1559341721065" duration="52000" />
+      <workItem from="1564487854129" duration="1500000" />
+      <workItem from="1564727658337" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15372000" />
+    <option name="totallyTimeSpent" value="71453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,12 +513,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19235925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33002833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26912183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,28 +528,76 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.2549575" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3555241" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.19772118" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/data/feats2019-03-12 15-10-43.json" />
+    <entry file="file://$PROJECT_DIR$/data/pois_detail2019-03-12 15-10-42.json" />
+    <entry file="file://$PROJECT_DIR$/poi/amap_poi_to_shp.py" />
+    <entry file="file://$PROJECT_DIR$/old_code/amap_poi_to_shp.py" />
+    <entry file="file://$PROJECT_DIR$/amap/poi/coordinate_conversion.py" />
+    <entry file="file://$PROJECT_DIR$/amap/polygon/config.py" />
+    <entry file="file://$PROJECT_DIR$/amap/API/poi/WebAPI-高德地图.url" />
+    <entry file="file://$PROJECT_DIR$/amap/data/[2019-04-08 13-29-41] pois_detail.json" />
+    <entry file="file://$PROJECT_DIR$/amap/data/[2019-04-08 13-29-42] feats.json" />
+    <entry file="file://$PROJECT_DIR$/amap/API/detail/pois_detail2019-03-12 15-10-42.json" />
+    <entry file="file://$PROJECT_DIR$/amap/data/风景名胜/[2019-04-09 21-21-55] pois_detail.json" />
+    <entry file="file://C:/Python27/ArcGIS10.5/Lib/httplib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        <state relative-caret-position="150">
+          <caret line="835" selection-start-line="835" selection-end-line="835" />
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python27/ArcGIS10.5/Lib/urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="212" selection-start-line="212" selection-end-line="212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/data.shp/[2019-04-16 19-39-54] 闅ч亾_feats.json" />
+    <entry file="file://$PROJECT_DIR$/amap/polygon/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/amap/polygon/amap_polygon.py" />
+    <entry file="file://$PROJECT_DIR$/amap/data/[2019-04-16 20-24-16] 闅ч亾_pois_detail.json" />
+    <entry file="file://$PROJECT_DIR$/amap/data/[2019-04-16 20-24-16] 闅ч亾_feats.json" />
+    <entry file="file://$PROJECT_DIR$/amap/data/[2019-04-16 19-59-42] pois.json" />
+    <entry file="file://$PROJECT_DIR$/amap/data/[2019-04-28 22-58-37] pois.json" />
+    <entry file="file://$PROJECT_DIR$/amap/API/poi/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/amap/API/detail/line.py" />
+    <entry file="file://$PROJECT_DIR$/amap/API/detail/pnt.py" />
+    <entry file="file://$PROJECT_DIR$/Tools/crawler_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="5" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/detail.py" />
+    <entry file="file://$PROJECT_DIR$/amap/poi.py" />
+    <entry file="file://$PROJECT_DIR$/amap/API/poi/amap_poi.py" />
+    <entry file="file://$PROJECT_DIR$/amap/config_line.py" />
+    <entry file="file://$PROJECT_DIR$/amap/line/amap_line.py" />
+    <entry file="file://$PROJECT_DIR$/amap/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/config.py" />
+    <entry file="file://$PROJECT_DIR$/amap/old/API/detail/pois_detail2019-03-12 15-10-42.json" />
     <entry file="file://C:/Python27/ArcGIS10.5/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="148">
           <caret line="363" selection-start-line="363" selection-end-line="363" />
         </state>
       </provider>
@@ -442,71 +605,105 @@
     <entry file="file://C:/Python27/ArcGIS10.5/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/pois2019-03-12 14-08-43.json" />
-    <entry file="file://$PROJECT_DIR$/data/feats2019-03-12 15-10-43.json" />
-    <entry file="file://$PROJECT_DIR$/data/pois_detail2019-03-12 15-10-42.json" />
-    <entry file="file://$PROJECT_DIR$/poi/amap_poi_to_shp.py" />
-    <entry file="file://$PROJECT_DIR$/old_code/amap_poi_to_shp.py" />
+    <entry file="file://$PROJECT_DIR$/amap/参数配置.md" />
     <entry file="file://$PROJECT_DIR$/amap/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <first_editor relative-caret-position="304">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amap/poi/coordinate_conversion.py" />
-    <entry file="file://$PROJECT_DIR$/amap/polygon/config.py" />
-    <entry file="file://$PROJECT_DIR$/amap/poi/WebAPI-高德地图.url">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amap/polygon/amap_polygon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#128#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/crawler_log.py">
+    <entry file="file://$PROJECT_DIR$/amap/0 WebAPI-高德地图.url" />
+    <entry file="file://$PROJECT_DIR$/amap/subway/xiamen/2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <caret column="36" selection-end-column="75431" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/subway/xiamen/4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-end-column="66382" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/subway/xiamen/3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-end-column="69317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/subway/xiamen/6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-end-column="81663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/config.json" />
+    <entry file="file://$PROJECT_DIR$/amap/subway/xiamen/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82809" selection-end-column="83053" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/old/polygon/amap_polygon.py" />
+    <entry file="file://$PROJECT_DIR$/Tools/coordinate_conversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/subway/xiamen/5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret column="1638" lean-forward="true" selection-end-column="109903" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/subway/process_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
-            <element signature="e#15#26#0" expanded="true" />
+            <element signature="e#180#189#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amap/poi/config.py">
+    <entry file="file://$PROJECT_DIR$/amap/amap.py" />
+    <entry file="file://$PROJECT_DIR$/amap/param_poiinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#501#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/param_poiinfo_v2_20190730.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="27" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amap/subway/amap_subway.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amap/poi/amap_poi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-          <folding>
-            <element signature="e#129#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amap/poi/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>

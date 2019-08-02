@@ -1,0 +1,15 @@
+【调用举例】
+1. 查看帮助
+`shptotxt.exe -h`
+2. 面文件
+`shptotxt.exe -i D:\mycode\GISandPython\9data\park_polygon_shp\park_polygon.shp -o polygon.txt`
+3. 线文件
+`shptotxt.exe -i D:\mycode\GISandPython\9data\road_shp\xiamen_20181116_road.shp -o line.txt`
+4. 点文件，并保存文件中第二个属性列（下标为1）
+`shptotxt.exe -i D:\mycode\GISandPython\9data\park_point_shp\xiamen_20181128_park.shp -o point.txt -attrindex 1 `
+
+【参数说明】
+-h           得到帮助                            -h
+-i           输入的shape文件                     -i D:\tmp\input.shp
+-o           保存的路径                          -o D:\tmp\myname.txt           可选项，默认保存在shptotxt.exe所在目录下out.txt下
+-attrindex   属性下标（从0开始）                  -attrindex 4                   可选项，默认保存的属性为第1个（下标为0）

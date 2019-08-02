@@ -2,6 +2,8 @@
 1. 记录点、线、面的ID
 
 
+
+
 # detail
 ## 举例
 【点】厦门市人民政府 http://ditu.amap.com/detail/get/detail?id=B02500088C
@@ -12,7 +14,6 @@
 【URL】http://ditu.amap.com/detail/get/detail?id=POIID
 【参数】POI的ID
 【获得方法】https://lbs.amap.com/api/webservice/guide/api/search
-
 
 ## 返回值
 【说明】
@@ -60,3 +61,41 @@
 		- score
 			- 总分 : 4.5
 			- 星级 : 4A景区
+
+# 参数配置
+```python
+params = {
+    #输出的文件夹
+    "out_dir" : "D:\\mycode\\GISandPython\\3CrawlerOfGIS\\amap\\data", 
+    #输出的文件名
+    "out_name" : "厦门市地铁站.shp",                                        
+    #类型 0:point 1:line 2:polygon
+    "shp_type" : 0,                                                    
+    #最大页数
+    "MAX_PAGE" : 100000,       
+    #url中的参数：https://lbs.amap.com/api/webservice/guide/api/search#text                                        
+    "url_param" : {                                                        
+        # 【keywords】与【types】至少填一种
+        "keywords" : "地铁",  
+        # 查看Excel文件[0 POIcode.xlsx]
+        "types" : "",
+        0citycode.xlsx
+        "city" : "厦门市",
+        "citylimit" : "true",
+        "output" : "json",
+        "key" : "4fac3db866dcc3b8a735651d3a7db1c7"
+    },
+    "save_field" : [
+        #get_pois()中把ID保存成了poiid --> 所以保存ID要写成poiid
+        ["poiid", "TEXT", 250],
+        ["name", "TEXT", 250],
+        ["type", "TEXT", 500],
+        ["typecode", "TEXT", 250],
+        ["adname", "TEXT", 250],
+        ["address", "TEXT", 500],
+        ["pname", "TEXT", 250],
+        ["cityname", "TEXT", 250],
+        ["tel", "TEXT", 250]
+    ]
+}
+```

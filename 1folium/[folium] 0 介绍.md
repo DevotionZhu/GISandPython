@@ -14,5 +14,3 @@ https://www.cnblogs.com/feffery/p/9282808.html
 2. 画线、画矩形、画两个矩形（中间镂空）、画多点、画多线、画多面、画几何集合、TopoJSON数据、style_function、热力地图(heatmap)
 https://www.cnblogs.com/feffery/p/9288138.html
 3. 系列教程：https://ithelp.ithome.com.tw/articles/10201574
-
-# 

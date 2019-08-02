@@ -1,0 +1,61 @@
+{
+    "out_dir": "D:\\mycode\\GISandPython\\3CrawlerOfGIS\\amap\\data",
+    "out_name": "厦门市地铁.shp",
+    "shp_type": 0,
+    "url_param": {
+        "keywords": "地铁",
+        "city": "厦门市",
+        "types": "",
+        "key": "4fac3db866dcc3b8a735651d3a7db1c7",
+        "citylimit": "true",
+        "output": "json"
+    },
+    "save_field": [
+        [
+            "poiid", 
+            "TEXT", 
+            250
+        ], 
+        [
+            "name", 
+            "TEXT", 
+            250
+        ], 
+        [
+            "type", 
+            "TEXT", 
+            500
+        ], 
+        [
+            "typecode", 
+            "TEXT", 
+            250
+        ], 
+        [
+            "adname", 
+            "TEXT", 
+            250
+        ], 
+        [
+            "address", 
+            "TEXT", 
+            500
+        ], 
+        [
+            "pname", 
+            "TEXT", 
+            250
+        ], 
+        [
+            "cityname", 
+            "TEXT", 
+            250
+        ], 
+        [
+            "tel", 
+            "TEXT", 
+            250
+        ]
+    ],
+    "MAX_PAGE": 100000
+}

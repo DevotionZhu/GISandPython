@@ -8,7 +8,7 @@ def save_json(obj, out_dir, fn):
     out_name = t + fn + ".json"
     out_path = os.path.join(out_dir, out_name)
     with open(out_path, "w+") as json_file:
-        json.dump(obj, json_file)
+        json.dump(obj, json_file, indent=4)
         json_file.close()
     pass
 
