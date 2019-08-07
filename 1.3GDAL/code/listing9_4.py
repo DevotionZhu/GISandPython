@@ -4,7 +4,7 @@ import os
 from osgeo import gdal
 
 # Don't forget to change the folder.
-os.chdir(r'D:\osgeopy-data\Landsat\Washington')
+os.chdir(r'D:\osgeopy-2001\Landsat\Washington')
 
 # Open the input raster.
 in_ds = gdal.Open('p047r027_7t20000730_z10_nn10.tif')
@@ -28,13 +28,13 @@ geotransform[1] /= 2
 geotransform[5] /= 2
 out_ds.SetGeoTransform(geotransform)
 
-# Read in the data, but have gdal resample it so that it has the specified
+# Read in the 2001, but have gdal resample it so that it has the specified
 # number of rows and columns instead of the numbers that the input has.
 # This effectively resizes the pixels.
 data = in_band.ReadAsArray(
     buf_xsize=out_columns, buf_ysize=out_rows)
 
-# Write the data to the output raster.
+# Write the 2001 to the output raster.
 out_band = out_ds.GetRasterBand(1)
 out_band.WriteArray(data)
 

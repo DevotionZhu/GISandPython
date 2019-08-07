@@ -5,7 +5,7 @@ import numpy as np
 from osgeo import gdal
 
 # Don't forget to change the folder.
-os.chdir(r'D:\osgeopy-data\Landsat\Washington')
+os.chdir(r'D:\osgeopy-2001\Landsat\Washington')
 
 # Open the input raster.
 in_ds = gdal.Open('nat_color.tif')
@@ -29,13 +29,13 @@ geotransform[1] *= 2
 geotransform[5] *= 2
 out_ds.SetGeoTransform(geotransform)
 
-# Read in the data for all bands, but have gdal resample it so that it has
+# Read in the 2001 for all bands, but have gdal resample it so that it has
 # the specified number of rows and columns instead of the numbers that the
 # input has. This effectively resizes the pixels.
 data = in_ds.ReadRaster(
     buf_xsize=out_columns, buf_ysize=out_rows)
 
-# Write the data to the output raster.
+# Write the 2001 to the output raster.
 out_ds.WriteRaster(0, 0, out_columns, out_rows, data)
 
 # Compute statistics and build overviews.

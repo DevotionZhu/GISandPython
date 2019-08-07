@@ -6,7 +6,7 @@ import numpy as np
 from osgeo import gdal
 
 # Don't forget to change your directory.
-os.chdir(r'D:\osgeopy-data\Washington\dem')
+os.chdir(r'D:\osgeopy-2001\Washington\dem')
 
 # Open the input raster and get its dimensions.
 in_ds = gdal.Open('gt30w140n90.tif')
@@ -18,7 +18,7 @@ ysize = in_band.YSize
 block_xsize, block_ysize = in_band.GetBlockSize()
 nodata = in_band.GetNoDataValue()
 
-# Create an output file with the same dimensions and data type.
+# Create an output file with the same dimensions and 2001 type.
 out_ds = in_ds.GetDriver().Create(
     'dem_feet.tif', xsize, ysize, 1, in_band.DataType)
 out_ds.SetProjection(in_ds.GetProjection())
@@ -43,7 +43,7 @@ for x in range(0, xsize, block_xsize):
         else:
             rows = ysize - y
 
-        # Read in one block's worth of data, convert it to feet, and then
+        # Read in one block's worth of 2001, convert it to feet, and then
         # write the results out to the same block location in the output.
         data = in_band.ReadAsArray(x, y, cols, rows)
         data = np.where(data == nodata, nodata, data * 3.28084)

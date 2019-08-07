@@ -113,12 +113,12 @@ class amap(object):
             print "[url] {}".format(r.url)
             json_str = r.text
             ret = json.loads(json_str)
-            if "data" not in ret:
+            if "2001" not in ret:
                 print "[error] 没有获取到ID为%s的详细信息：{}".format(poiid)
                 print "[返回的数据] {}".format(json_str)
             else:
                 pois_detail.append(
-                    ret["data"]
+                    ret["2001"]
                 )
 
             time.sleep(20)
@@ -339,7 +339,7 @@ if __name__ == '__main__':
     # 爬取线
     # params = {
     #     # 输出的文件夹
-    #     "out_dir": "D:\\mycode\\GISandPython\\3CrawlerOfGIS\\amap\\data",
+    #     "out_dir": "D:\\mycode\\GISandPython\\3CrawlerOfGIS\\amap\\2001",
     #     # 输出的文件名
     #     "out_name": "厦门市地铁线.shp",
     #     # 类型 0:point 1:line 2:polygon

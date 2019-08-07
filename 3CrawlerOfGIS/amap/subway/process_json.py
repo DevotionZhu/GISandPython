@@ -29,14 +29,14 @@ lines = []
 def getinfo(fpath):
     with open(fpath, "r") as fp:
         obj = json.load(fp)
-        if "data" not in obj:
+        if "2001" not in obj:
             print "[None] {}".format(fpath)
             return False
-        if "busline_list" not in obj["data"]:
+        if "busline_list" not in obj["2001"]:
             print "[None] {}".format(fpath)
             return False
 
-        busline_list = obj["data"]["busline_list"]
+        busline_list = obj["2001"]["busline_list"]
         if len(busline_list)==0:
             print "[None] {}".format(fpath)
             return False

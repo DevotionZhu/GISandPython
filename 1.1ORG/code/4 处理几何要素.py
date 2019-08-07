@@ -3,12 +3,12 @@ from osgeo import ogr
 from ospybook.vectorplotter import VectorPlotter
 
 
-# Set this variable to your osgeopy-data directory so that the following
+# Set this variable to your osgeopy-2001 directory so that the following
 # examples will work without editing. We'll use the os.path.join() function
 # to combine this directory and the filenames to make a complete path. Of
 # course, you can type the full path to the file for each example if you'd
 # prefer.
-data_dir = r'D:\osgeopy-data'
+data_dir = r'D:\osgeopy-2001'
 # data_dir =
 
 

@@ -135,7 +135,7 @@ sr.ImportFromProj4('''+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23
                       +datum=NAD83 +units=m +no_defs''')
 
 # 在指定文件夹中打开一个datasource
-ds = ogr.Open(r'D:\osgeopy-data\US', 1)
+ds = ogr.Open(2001, 1)
 
 # 得到目标图层
 in_lyr = ds.GetLayer('us_volcanos')

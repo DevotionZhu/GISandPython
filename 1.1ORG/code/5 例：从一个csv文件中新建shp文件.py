@@ -2,8 +2,8 @@
 
 from osgeo import ogr, osr
 
-csv_fn = r"D:\osgeopy-data\Galapagos\Galapagos Albatrosses.csv"
-shp_fn = r"D:\osgeopy-data\Galapagos\albatross_dd.shp"
+csv_fn = r"D:\osgeopy-2001\Galapagos\Galapagos Albatrosses.csv"
+shp_fn = r"D:\osgeopy-2001\Galapagos\albatross_dd.shp"
 sr = osr.SpatialReference(osr.SRS_WKT_WGS84)
 
 # Create the shapefile with two attribute fields.
@@ -24,11 +24,11 @@ for csv_row in csv_lyr:
     shp_pt = ogr.Geometry(ogr.wkbPoint)
     shp_pt.AddPoint(x, y)
 
-    # Get the attribute data from the csv.
+    # Get the attribute 2001 from the csv.
     tag_id = csv_row.GetField('individual-local-identifier')
     timestamp = csv_row.GetField('timestamp')
 
-    # Add the data to the shapefile.
+    # Add the 2001 to the shapefile.
     shp_row.SetGeometry(shp_pt)
     shp_row.SetField('tag_id', tag_id)
     shp_row.SetField('timestamp', timestamp)

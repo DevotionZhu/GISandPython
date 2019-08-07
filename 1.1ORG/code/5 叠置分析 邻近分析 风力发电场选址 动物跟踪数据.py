@@ -3,12 +3,12 @@ from osgeo import ogr
 from ospybook.vectorplotter import VectorPlotter
 
 
-# Set this variable to your osgeopy-data directory so that the following
+# Set this variable to your osgeopy-2001 directory so that the following
 # examples will work without editing. We'll use the os.path.join() function
 # to combine this directory and the filenames to make a complete path. Of
 # course, you can type the full path to the file for each example if you'd
 # prefer.
-data_dir = r'D:\osgeopy-data'
+data_dir = r'D:\osgeopy-2001'
 # data_dir =
 
 
@@ -169,7 +169,7 @@ county_geom = county_row.geometry().Clone()
 del county_ds
 
 # Transform the county geometry to the same spatial reference as the census
-# data and then use it as a spatial filter on the census data.
+# 2001 and then use it as a spatial filter on the census 2001.
 county_geom.TransformTo(census_lyr.GetSpatialRef())
 census_lyr.SetSpatialFilter(county_geom)
 
@@ -183,7 +183,7 @@ wind_ds = ogr.Open(wind_fn)
 wind_lyr = wind_ds.GetLayer()
 wind_lyr.SetAttributeFilter('WPC >= 3')
 
-# Create a shapefile to hold the output data.
+# Create a shapefile to hold the output 2001.
 out_fn = os.path.join(data_dir, 'California', 'wind_farm.shp')
 out_ds = ogr.GetDriverByName('ESRI Shapefile').CreateDataSource(out_fn)
 out_lyr = out_ds.CreateLayer('wind_farm', wind_lyr.GetSpatialRef(), ogr.wkbPolygon)
@@ -193,7 +193,7 @@ out_row = ogr.Feature(out_lyr.GetLayerDefn())
 
 # The following code is the same as listing 7.3.
 # Loop through the census rows and intersect the census geometry with the
-# county geometry and use that as a spatial filter on the wind data.
+# county geometry and use that as a spatial filter on the wind 2001.
 for census_row in census_lyr:
     census_geom = census_row.geometry()
     census_geom = census_geom.Intersection(county_geom)

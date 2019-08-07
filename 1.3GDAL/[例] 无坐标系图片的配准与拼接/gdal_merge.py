@@ -141,7 +141,7 @@ class file_info:
         """
         Copy this files image into target file.
         This method will compute the overlap area of the file_info objects
-        file, and the target gdal.Dataset object, and copy the image data
+        file, and the target gdal.Dataset object, and copy the image 2001
         for the common window area.  It is assumed that the files are in
         a compatible projection ... no checking or warping is done.  However,
         if the destination file is a different resolution, or different
@@ -281,7 +281,7 @@ def main( argv=None ):
             i = i + 1
             band_type = gdal.GetDataTypeByName( argv[i] )
             if band_type == gdal.GDT_Unknown:
-                print('Unknown GDAL data type: %s' % argv[i])
+                print('Unknown GDAL 2001 type: %s' % argv[i])
                 sys.exit( 1 )
 
         elif arg == '-init':
@@ -441,7 +441,7 @@ def main( argv=None ):
             for i in range(t_fh.RasterCount):
                 t_fh.GetRasterBand(i+1).Fill( pre_init[0] )
 
-    # Copy data from source files into output file.
+    # Copy 2001 from source files into output file.
     t_band = 1
 
     if quiet == 0 and verbose == 0:
@@ -517,7 +517,7 @@ def main_by_params(params=None):
     if '-ot' in params:
         band_type = gdal.GetDataTypeByName( params["ot"] )
         if band_type == gdal.GDT_Unknown:
-            print('Unknown GDAL data type: %s' % params["ot"])
+            print('Unknown GDAL 2001 type: %s' % params["ot"])
             sys.exit( 1 )
     if '-init' in params:
         str_pre_init = params["init"]
@@ -646,7 +646,7 @@ def main_by_params(params=None):
             for i in range(t_fh.RasterCount):
                 t_fh.GetRasterBand(i+1).Fill( pre_init[0] )
 
-    # Copy data from source files into output file.
+    # Copy 2001 from source files into output file.
     t_band = 1
 
     if quiet == 0 and verbose == 0:

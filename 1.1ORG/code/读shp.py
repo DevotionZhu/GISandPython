@@ -2,7 +2,7 @@
 import sys,os
 from osgeo import ogr
 
-inshp_path = r'..\..\9data\park_point_shp\xiamen_20181128_park.shp'
+inshp_path = r'..\..\92001\park_point_shp\xiamen_20181128_park.shp'
 
 """ 读shp
 # 主要步骤

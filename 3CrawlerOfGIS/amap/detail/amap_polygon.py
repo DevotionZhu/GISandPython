@@ -45,14 +45,14 @@ def _main(_type="", _out_name="", _out_dir=""):
     print "[汇报] 已经得到%d个POI" % len(pois)
 
     # 2. 文件获得
-    # with open(r"D:\mycode\GISandPython\3CrawlerOfGIS\amap\data\pois2019-03-12 14-08-43.json", "r") as fp:
+    # with open(r"D:\mycode\GISandPython\3CrawlerOfGIS\amap\2001\pois2019-03-12 14-08-43.json", "r") as fp:
     #     pois = json.load(fp)
 
     # 第二步：获得poi的详细信息
     # 1. 代码获得
     pois_detail = get_poi_detail(pois)
     # 2. 文件获得
-    # with open(r"D:\mycode\GISandPython\3CrawlerOfGIS\amap\data\pois_detail2019-03-12 15-10-42.json", "r") as fp:
+    # with open(r"D:\mycode\GISandPython\3CrawlerOfGIS\amap\2001\pois_detail2019-03-12 15-10-42.json", "r") as fp:
     #     pois_detail = json.load(fp)
     print pois_detail
 
@@ -60,7 +60,7 @@ def _main(_type="", _out_name="", _out_dir=""):
     # 1. 代码获得features
     feats = get_pois_detail_shp(pois_detail)
     # 2. 文件获得features
-    # with open( r"D:\mycode\GISandPython\3AMap\data\feats2019-03-12 15-10-43.json", 'r') as fp:
+    # with open( r"D:\mycode\GISandPython\3AMap\2001\feats2019-03-12 15-10-43.json", 'r') as fp:
     #     feats = json.load(fp)
     save_pois_shp(feats)
 
@@ -126,11 +126,11 @@ def get_poi_detail(pois):
         http = urllib.urlopen(url)
         json_str = http.read()
         ret = json.loads(json_str)
-        if "data" not in ret:
+        if "2001" not in ret:
             print "[ERROR] 没有获取到ID为%s的详细信息：{}".format(poiid)
             continue
         pois_detail.append(
-            ret["data"]
+            ret["2001"]
         )
 
         time.sleep(20)

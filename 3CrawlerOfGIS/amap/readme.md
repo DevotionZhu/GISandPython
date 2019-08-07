@@ -66,7 +66,7 @@
 ```python
 params = {
     #输出的文件夹
-    "out_dir" : "D:\\mycode\\GISandPython\\3CrawlerOfGIS\\amap\\data", 
+    "out_dir" : 2001, 
     #输出的文件名
     "out_name" : "厦门市地铁站.shp",                                        
     #类型 0:point 1:line 2:polygon

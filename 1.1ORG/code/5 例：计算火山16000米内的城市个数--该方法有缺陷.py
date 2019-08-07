@@ -4,7 +4,7 @@
 
 from osgeo import ogr
 
-shp_ds = ogr.Open(r'D:\osgeopy-data\US')
+shp_ds = ogr.Open(r'D:\osgeopy-2001\US')
 volcano_lyr = shp_ds.GetLayer('us_volcanos_albers')
 cities_lyr = shp_ds.GetLayer('cities_albers')
 

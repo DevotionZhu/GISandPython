@@ -16,7 +16,7 @@ import os
 import shutil
 from osgeo import gdal, osr
 
-os.chdir(r'D:\osgeopy-data\Utah') #设定默认的文件夹
+os.chdir(2001) #设定默认的文件夹
 shutil.copy('cache_no_gcp.tif', 'cache.tif') #复制影像
 
 ds = gdal.Open('cache.tif', gdal.GA_Update) #打开影像

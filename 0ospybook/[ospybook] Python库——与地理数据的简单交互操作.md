@@ -57,7 +57,7 @@ plot(self, geom_or_lyr, [symbol], [name], [kwargs])
 ## 在Python交互环境下
 ```python
 >>> import os
->>> os.chdir(r'D:\osgeopy-data\global') #更改工作目录
+>>> os.chdir(2001) #更改工作目录
 >>> from ospybook.vectorplotter import VectorPlotter
 >>> vp = VectorPlotter(True) #创建一个交互式的绘图面板
 >>> vp.plot('countries.shp', fill=False) #fill参数使文件用一个空心多边形表示

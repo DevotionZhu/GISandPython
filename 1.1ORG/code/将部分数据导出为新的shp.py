@@ -12,7 +12,7 @@ from osgeo import ogr
 
 
 # 将厦门POI数据中的“商务住宅”存成另一个shp
-dir = r'..\..\9data\park_point_shp' # 数据所在文件夹
+dir = r'..\..\92001\park_point_shp' # 数据所在文件夹
 key = '商务住宅'
 
 # ----------------- 打开一个文件夹 -----------------

@@ -4,7 +4,7 @@ import os
 from osgeo import gdal
 
 # 设置工作文件夹
-os.chdir(r'D:\osgeopy-data\Landsat\Washington')
+os.chdir(r'D:\osgeopy-2001\Landsat\Washington')
 # 三个波段的影像
 band1_fn = 'p047r027_7t20000730_z10_nn10.tif'
 band2_fn = 'p047r027_7t20000730_z10_nn20.tif'

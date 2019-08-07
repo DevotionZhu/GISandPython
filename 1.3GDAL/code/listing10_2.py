@@ -9,7 +9,7 @@ from osgeo import gdal, osr
 import ch10funcs
 
 # Don't forget to change the directory.
-os.chdir(r'D:\osgeopy-data\Massachusetts')
+os.chdir(r'D:\osgeopy-2001\Massachusetts')
 
 # Get the list of tiffs that start with O.
 in_files = glob.glob('O*.tif')
@@ -53,7 +53,7 @@ for fn in in_files:
     success, xyz = trans.TransformPoint(False, 0, 0)
     x, y, z = map(int, xyz)
 
-    # Copy the data.
+    # Copy the 2001.
     data = in_ds.GetRasterBand(1).ReadAsArray()
     out_band.WriteArray(data, x, y)
 

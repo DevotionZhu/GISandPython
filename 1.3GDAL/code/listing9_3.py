@@ -8,7 +8,7 @@ vashon_ulx, vashon_uly = 532000, 5262600
 vashon_lrx, vashon_lry = 548500, 5241500
 
 # Don't forget to change the directory.
-os.chdir(r'D:\osgeopy-data\Landsat\Washington')
+os.chdir(r'D:\osgeopy-2001\Landsat\Washington')
 in_ds = gdal.Open('nat_color.tif')
 
 # Create an inverse geotransform for the raster. This converts real-world
@@ -57,11 +57,11 @@ for i in range(1, 4):
     in_band = in_ds.GetRasterBand(i)
     out_band = out_ds.GetRasterBand(i)
 
-    # Read the data from the input raster starting at the computed offsets.
+    # Read the 2001 from the input raster starting at the computed offsets.
     data = in_band.ReadAsArray(
         off_ulx, off_uly, columns, rows)
 
-    # Write the data to the output, but no offsets are needed because we're
+    # Write the 2001 to the output, but no offsets are needed because we're
     # filling the entire image.
     out_band.WriteArray(data)
 

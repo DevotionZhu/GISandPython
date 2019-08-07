@@ -2,108 +2,230 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988b4990-8343-4fe9-8515-8dd5811a0a29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.1ORG/example/batchcut/batch_cut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.1ORG/example/batchcut/cut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量_v1.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/clip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/delete_repetitive_geometry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/两两相交.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/创建polygon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Arcpy/批量裁剪并合并.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/geocoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/ditu.amap.com.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/urls.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3CrawlerOfGIS/实例.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9学习资料/pyModis Documentation Release 2.0.6.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.2OSR Proj/prj/WGS84.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/MOD04Toolbox/ClassifyAndCreateProject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/ArcGISTools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/note/[ArcPy] 3 参数篇.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/note/[Arcpy] 0 初识Arcpy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Arcpy/note/[Arcpy] 1 Arcpy与栅格.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2PyModis/MOD04-L2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2PyModis/mosaic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2PyModis/官方例子.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/[ospybook] Python库——与地理数据的简单交互操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/[ospybook] Python库——与地理数据的简单交互操作.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/chapter10.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/chapter10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter10/listing10_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/chapter11.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/chapter11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter11/listing11_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter12/listing12_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter12/listing12_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter12/listing12_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter12/listing12_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter12/listing12_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter12/listing12_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter12/listing12_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter12/listing12_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/chapter13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_9-edited.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_9-edited.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter13/listing13_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter3/chapter3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter3/chapter3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter3/listing3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter3/listing3_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter3/listing3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter3/listing3_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter4/chapter4.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter4/chapter4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter4/listing4_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter4/listing4_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter4/listing4_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter4/listing4_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter5/chapter5.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter5/chapter5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter6/chapter6.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter6/chapter6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/chapter7.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/chapter7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 0 总 OGR-矢量数据读写管理.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.1 基础 驱动drvier与数据源datasource.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.2 基础 layer图层.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.3 基础 Feature要素.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.4 基础 Geometry几何属性.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 1.5 基础 Field属性字段.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 2 处理不同的矢量文件.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 3 使用OGR过滤数据.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 4 处理几何要素.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 5 矢量数据的空间分析-缓冲区 距离 叠加分析.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 9 操作 拷贝.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/[OGR] 9 操作 查询.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/4 例：从多边形图层创建线图层.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/4 例：从线图层创建点图层.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/4 处理几何要素.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：为每只鸟创建凸包多边形.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：从一个csv文件中新建shp文件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：从属性列中获取唯一值的方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：创建地理区域分割的凸包多边形.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：将小的多边形合并成大的多边形.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：查找两点间最大的飞行速度和所耗时间.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：计算火山16000米内的城市个数--安全方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：计算火山16000米内的城市个数--该方法有缺陷.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 例：计算相邻点之间的距离.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/5 叠置分析 邻近分析 风力发电场选址 动物跟踪数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/将部分数据导出为新的shp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/code/读shp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/data/water_xm.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1 ORG/example/dist/调用例子.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2 OSR Proj/1example/例：投影整个点图层.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2 OSR Proj/1example/例：读取SRS-读取SRS具体信息.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2 OSR Proj/[Python] OSR - 坐标系.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2 OSR Proj/[Python] Proj.4 - 坐标系.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/1GDAL.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/chapter9.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/listing9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/为栅格数据添加地面控制点.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/1example/将独立的栅格波段合成一张图像.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/[GDAL] 0 概述 - 栅格数据读写管理.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/[GDAL] 1.1 读写栅格数据.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3 GDAL/[GDAL] 坐标系 - 地面控制点or影像重投影.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1folium/.idea/1folium.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1folium/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1folium/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1folium/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1folium/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1folium/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1folium/[folium] 0 介绍.md" beforeDir="false" afterPath="$PROJECT_DIR$/1folium/[folium] 0 介绍.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter7/listing7_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter8/chapter8.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter8/chapter8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter8/listing8_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter8/listing8_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/chapter9.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/chapter9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/Chapter9/listing9_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/ospybook/ospybook/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/ospybook/ospybook/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/ospybook/ospybook/simplevectorplotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/ospybook/ospybook/simplevectorplotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/osgeopy-code/ospybook/ospybook/vectorplotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/osgeopy-code/ospybook/ospybook/vectorplotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/ospybook-1.0/build/lib/ospybook/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/ospybook-1.0/build/lib/ospybook/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/ospybook-1.0/build/lib/ospybook/simplevectorplotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/ospybook-1.0/build/lib/ospybook/simplevectorplotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/ospybook-1.0/build/lib/ospybook/vectorplotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/ospybook-1.0/build/lib/ospybook/vectorplotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/ospybook-1.0/ospybook/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/ospybook-1.0/ospybook/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/ospybook-1.0/ospybook/simplevectorplotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/ospybook-1.0/ospybook/simplevectorplotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0ospybook/ospybook-1.0/ospybook/vectorplotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/0ospybook/ospybook-1.0/ospybook/vectorplotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/[OGR] 5 矢量数据的空间分析-缓冲区 距离 叠加分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/[OGR] 5 矢量数据的空间分析-缓冲区 距离 叠加分析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/4 处理几何要素.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/4 处理几何要素.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：为每只鸟创建凸包多边形.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：为每只鸟创建凸包多边形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：从一个csv文件中新建shp文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：从一个csv文件中新建shp文件.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：从属性列中获取唯一值的方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：从属性列中获取唯一值的方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：创建地理区域分割的凸包多边形.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：创建地理区域分割的凸包多边形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：将小的多边形合并成大的多边形.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：将小的多边形合并成大的多边形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：查找两点间最大的飞行速度和所耗时间.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：查找两点间最大的飞行速度和所耗时间.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：计算火山16000米内的城市个数--安全方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：计算火山16000米内的城市个数--安全方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：计算火山16000米内的城市个数--该方法有缺陷.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：计算火山16000米内的城市个数--该方法有缺陷.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 例：计算相邻点之间的距离.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 例：计算相邻点之间的距离.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/5 叠置分析 邻近分析 风力发电场选址 动物跟踪数据.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/5 叠置分析 邻近分析 风力发电场选址 动物跟踪数据.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/将部分数据导出为新的shp.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/将部分数据导出为新的shp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1ORG/code/读shp.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.1ORG/code/读shp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2OSR Proj/1example/例：投影整个点图层.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.2OSR Proj/1example/例：投影整个点图层.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2OSR Proj/[Python] OSR - 坐标系.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.2OSR Proj/[Python] OSR - 坐标系.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/[GDAL] 0 概述 - 栅格数据读写管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/[GDAL] 0 概述 - 栅格数据读写管理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/[GDAL] 坐标系 - 地面控制点or影像重投影.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/[GDAL] 坐标系 - 地面控制点or影像重投影.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/[例] 无坐标系图片的配准与拼接/gdal_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/[例] 无坐标系图片的配准与拼接/gdal_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/code/chapter9.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/code/chapter9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/code/listing10_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/code/listing10_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/code/listing9_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/code/listing9_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/code/listing9_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/code/listing9_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/code/listing9_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/code/listing9_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/code/listing9_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/code/listing9_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/code/为栅格数据添加地面控制点.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/code/为栅格数据添加地面控制点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.3GDAL/code/将独立的栅格波段合成一张图像.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.3GDAL/code/将独立的栅格波段合成一张图像.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/MOD04Toolbox/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/DeleteDarkSide.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/DeleteDarkSide.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/DeleteDarkSide1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/DeleteDarkSide1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/boundary__following.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/boundary__following.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/clip.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/clip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/clip_shp/clip.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/clip_shp/clip.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/clip_shp/clip.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/clip_shp/clip.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/clip_shp/clip.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/clip_shp/clip.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/clip/mz_shange.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/clip/mz_shange.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/clip/mz_shange.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/clip/mz_shange.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/clip/mz_shange.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/clip/mz_shange.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/clip/mz_shange.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/polygon_dir/mz_shange.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/polygon_dir/mz_shange.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/polygon_dir/mz_shange.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/polygon_dir/mz_shange.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/polygon_dir/mz_shange.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/polygon_dir/mz_shange.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/polygon_dir/mz_shange.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000001.TablesByName.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000001.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000001.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000001.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000002.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000002.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000003.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000003.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000003.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000004.CatItemsByPhysicalName.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000004.CatItemsByType.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000004.FDO_UUID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000004.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000004.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000004.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000004.spx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000005.CatItemTypesByName.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000005.CatItemTypesByParentTypeID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000005.CatItemTypesByUUID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000005.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000005.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000005.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000006.CatRelsByDestinationID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000006.CatRelsByOriginID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000006.CatRelsByType.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000006.FDO_UUID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000006.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000006.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000006.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.CatRelTypesByBackwardLabel.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.CatRelTypesByDestItemTypeID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.CatRelTypesByForwardLabel.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.CatRelTypesByName.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.CatRelTypesByUUID.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000007.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000009.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000009.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000009.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a00000009.spx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000a.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000a.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000a.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000b.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000b.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000b.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000c.band_index.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000c.blk_key_index.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000c.col_index.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000c.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000c.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000c.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000c.row_index.atx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000d.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000d.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000d.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000e.gdbindexes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000e.gdbtable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/a0000000e.gdbtablx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/gdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/data/output/reclass.gdb/timestamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/equal_reclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/equal_reclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/file_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/file_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/getRandShape.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/getRandShape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/layer_stacking.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/layer_stacking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/node/[ArcPy] ArcPy与几何对象.md" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/note/[ArcPy] 2 ArcPy与几何对象.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/node/[ArcPy] ArcPy与栅格.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/node/[ArcPy] arcpy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/node/[ArcPy] 参数篇.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/node/[ArcPy] 多个栅格文件相加.md" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/MOD04Toolbox/[ArcGIS批处理] MOD04 影像分类+抽取子集+投影+融合.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/node/[ArcPy] 操作栅格数据.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/node/语法总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/note/[Arcpy] 9 Arcpy常用汇总.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/shanding_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/shanding_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/两两相交.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/两两相交.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/创建polygon.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/创建polygon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Arcpy/批量裁剪并合并.py" beforeDir="false" afterPath="$PROJECT_DIR$/2Arcpy/old/批量裁剪并合并.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/coordinate_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/coordinate_conversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/crawler_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/Tools/crawler_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/amap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/WebAPI-高德地图.url" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/amap_code/AMap_adcode_citycode.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/amap_code/amap_poicode.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/amap_poi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/[2019-03-30 11-48-37] pois.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/xiamen_政府机构及社会团体.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/xiamen_政府机构及社会团体.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/xiamen_政府机构及社会团体.shp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/poi/data/xiamen_政府机构及社会团体.shx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/polygon/Polygon示例.url" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/polygon/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/polygon/amap_polygon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/poi.py" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/poi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_line.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_polygon.py" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_polygon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/9data/park_polygon_shp/park_polygon.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3CrawlerOfGIS/amap/subway/process_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/3CrawlerOfGIS/amap/subway/process_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9学习资料/pyModis Documentation Release 2.0.6.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,18 +236,38 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/GISandPython$amap_polygon.coverage" NAME="amap_polygon Coverage Results" MODIFIED="1552108321863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3AMap" />
     <SUITE FILE_PATH="coverage/GISandPython$__.coverage" NAME="栅格转矢量+裁剪-批量 Coverage Results" MODIFIED="1559730781966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy" />
-    <SUITE FILE_PATH="coverage/GISandPython$geocoding.coverage" NAME="geocoding Coverage Results" MODIFIED="1562162583991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3CrawlerOfGIS/Tools" />
-    <SUITE FILE_PATH="coverage/GISandPython$.coverage" NAME="批量裁剪并合并 Coverage Results" MODIFIED="1555252143151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy" />
+    <SUITE FILE_PATH="coverage/GISandPython$.coverage" NAME="官方例子 Coverage Results" MODIFIED="1564833461660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2PyModis" />
     <SUITE FILE_PATH="coverage/GISandPython$polygon.coverage" NAME="创建polygon Coverage Results" MODIFIED="1554121378748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy" />
     <SUITE FILE_PATH="coverage/GISandPython$shp.coverage" NAME="创建面状shp文件 Coverage Results" MODIFIED="1554192567469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.1 ORG/1example" />
     <SUITE FILE_PATH="coverage/GISandPython$cut.coverage" NAME="cut Coverage Results" MODIFIED="1555237778905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.1ORG/example/batchcut" />
+    <SUITE FILE_PATH="coverage/GISandPython$ConvertModisGDAL.coverage" NAME="ConvertModisGDAL Coverage Results" MODIFIED="1564919017974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2PyModis" />
+    <SUITE FILE_PATH="coverage/GISandPython$geocoding.coverage" NAME="geocoding Coverage Results" MODIFIED="1562162583991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3CrawlerOfGIS/Tools" />
+    <SUITE FILE_PATH="coverage/GISandPython$mosaic.coverage" NAME="mosaic Coverage Results" MODIFIED="1564916802358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2PyModis" />
     <SUITE FILE_PATH="coverage/GISandPython$shptotxt__1_.coverage" NAME="shptotxt (1) Coverage Results" MODIFIED="1555067497819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.1ORG/example/shptotxt" />
     <SUITE FILE_PATH="coverage/GISandPython$shp_.coverage" NAME="读shp-点图层 Coverage Results" MODIFIED="1550543671995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1ORG/1example" />
     <SUITE FILE_PATH="coverage/GISandPython$shptotxt.coverage" NAME="shptotxt Coverage Results" MODIFIED="1555032333063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.1 ORG/example" />
+    <SUITE FILE_PATH="coverage/GISandPython$MOD04_L2.coverage" NAME="MOD04-L2 Coverage Results" MODIFIED="1564832986626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2PyModis" />
     <SUITE FILE_PATH="coverage/GISandPython$___v1_1.coverage" NAME="栅格转矢量+裁剪-批量_v1.1 Coverage Results" MODIFIED="1559742988428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量" />
+    <SUITE FILE_PATH="coverage/GISandPython$ClassifyAndCreateProject.coverage" NAME="ClassifyAndCreateProject Coverage Results" MODIFIED="1565090699893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GISandPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/MOD04Toolbox/ClassifyAndCreateProject.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+              <folding>
+                <element signature="e#304#314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,6 +282,8 @@
       <find>getParkPoiid</find>
       <find>Ring()</find>
       <find>Ring</find>
+      <find>resolution</find>
+      <find>subset</find>
     </findStrings>
     <replaceStrings>
       <replace>get_pois</replace>
@@ -151,19 +295,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1ORG/1example/点要素shp文件.py" />
-        <option value="$PROJECT_DIR$/1ORG/1example/点状shp.py" />
-        <option value="$PROJECT_DIR$/1ORG/[GIS与Python] 1 OGR-矢量数据读写管理.md" />
-        <option value="$PROJECT_DIR$/2GDAL/[GIS与Python] 2 GDAL-栅格数据读写管理.md" />
-        <option value="$PROJECT_DIR$/1ORG/1example/读shp-点图层.py" />
-        <option value="$PROJECT_DIR$/0node/[GIS与Python] 1 OGR-矢量数据读写管理.md" />
-        <option value="$PROJECT_DIR$/1ORG/1example/读shp.py" />
-        <option value="$PROJECT_DIR$/0node/1 [OGR] Geometry.md" />
-        <option value="$PROJECT_DIR$/1ORG/1example/将部分数据导出为新的shp.py" />
-        <option value="$PROJECT_DIR$/0node/1 [OGR] 0 OGR-矢量数据读写管理.md" />
-        <option value="$PROJECT_DIR$/0node/1 [OGR] 要素添加、更新和删除.md" />
-        <option value="$PROJECT_DIR$/1ORG/2AMap/readme.md" />
-        <option value="$PROJECT_DIR$/3AMap/amap_poi.py" />
         <option value="$PROJECT_DIR$/3AMap/amap_polygon.py" />
         <option value="$PROJECT_DIR$/3AMap/polygon/amap_polygon.py" />
         <option value="$PROJECT_DIR$/1.1 ORG/1example/创建面.py" />
@@ -200,12 +331,26 @@
         <option value="$PROJECT_DIR$/3CrawlerOfGIS/Tools/geocoding.py" />
         <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/param_poiinfo.py" />
         <option value="$PROJECT_DIR$/1folium/[folium] 0 介绍.md" />
+        <option value="$PROJECT_DIR$/2PyModis/Projection.py" />
+        <option value="$PROJECT_DIR$/2PyModis/example/mosic.py" />
+        <option value="$PROJECT_DIR$/2PyModis/example/官方.py" />
+        <option value="$PROJECT_DIR$/2PyModis/note/[Python] PyModis.md" />
+        <option value="$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_polygon_old.py" />
+        <option value="$PROJECT_DIR$/2PyModis/mosaic.py" />
+        <option value="$PROJECT_DIR$/2PyModis/MOD04-L2.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/MOD04-L2/arcpy.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/MOD04-L2/MOD04L2.py" />
+        <option value="$PROJECT_DIR$/2PyModis/ConvertModisGDAL.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/note/[Arcpy] 0 初识Arcpy.md" />
+        <option value="$PROJECT_DIR$/2Arcpy/note/[Arcpy] 1 Arcpy与栅格.md" />
+        <option value="$PROJECT_DIR$/2Arcpy/note/[ArcPy] 参数篇.md" />
+        <option value="$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/ClassifyAndCreateProject.py" />
+        <option value="$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/MOD04Toolbox/ClassifyAndCreateProject.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="268" />
-    <option name="y" value="90" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="957" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -217,7 +362,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,12 +372,39 @@
             <path>
               <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
-              <item name="9data" type="462c0819:PsiDirectoryNode" />
+              <item name="1.2OSR Proj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
+              <item name="2Arcpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
+              <item name="2Arcpy" type="462c0819:PsiDirectoryNode" />
+              <item name="ArcGISTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
+              <item name="2Arcpy" type="462c0819:PsiDirectoryNode" />
+              <item name="ArcGISTools" type="462c0819:PsiDirectoryNode" />
+              <item name="MOD04-L2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GISandPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GISandPython" type="462c0819:PsiDirectoryNode" />
+              <item name="2Arcpy" type="462c0819:PsiDirectoryNode" />
+              <item name="ArcGISTools" type="462c0819:PsiDirectoryNode" />
+              <item name="MOD04-L2" type="462c0819:PsiDirectoryNode" />
+              <item name="MOD04Toolbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,18 +415,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\mycode\GISandPython\9学习资料" />
-      <recent name="D:\mycode\GISandPython\2Arcpy" />
-      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\poiInfo" />
-      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\detail" />
-      <recent name="D:\mycode\GISandPython\3CrawlerOfGIS\amap\old\API" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mycode\GISandPython\1.2OSR Proj\prj" />
+      <recent name="D:\mycode\GISandPython\2PyModis\data" />
       <recent name="D:\mycode\GISandPython\2Arcpy\ArcGISTools\提取栅格外框线-批量" />
       <recent name="D:\mycode\GISandPython\1.1 ORG\data" />
       <recent name="D:\mycode\GISandPython\3AMap" />
-      <recent name="D:\mycode\GISandPython\0data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mycode\GISandPython\2Arcpy\ArcGISTools\MOD04-L2\MOD04Toolbox" />
+      <recent name="D:\mycode\GISandPython\2Arcpy\ArcGISTools" />
+      <recent name="D:\mycode\GISandPython\2Arcpy\old" />
+      <recent name="D:\mycode\GISandPython\2PyModis" />
+      <recent name="D:\mycode\GISandPython\9学习资料" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,8 +442,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.geocoding">
-    <configuration name="批量裁剪并合并" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ClassifyAndCreateProject">
+    <configuration name="官方" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GISandPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,12 +451,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2Arcpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2PyModis/example" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2Arcpy/批量裁剪并合并.py" />
+      <option name="SCRIPT_NAME" value="D:\mycode\GISandPython\2PyModis\官方例子.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,7 +465,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="栅格转矢量+裁剪-批量" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ClassifyAndCreateProject" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GISandPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,12 +473,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2Arcpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2Arcpy/栅格转矢量+裁剪-批量.py" />
+      <option name="SCRIPT_NAME" value="D:\mycode\GISandPython\2Arcpy\ArcGISTools\MOD04-L2\MOD04Toolbox\ClassifyAndCreateProject.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,7 +487,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="栅格转矢量+裁剪-批量_v1.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ConvertModisGDAL" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GISandPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,12 +495,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2PyModis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量_v1.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2PyModis/ConvertModisGDAL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,7 +509,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MOD04-L2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GISandPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,12 +517,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.1ORG/example/batchcut" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2PyModis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.1ORG/example/batchcut/cut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2PyModis/MOD04-L2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,7 +531,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="geocoding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="官方例子" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GISandPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,12 +539,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3CrawlerOfGIS/Tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2PyModis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3CrawlerOfGIS/Tools/geocoding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2PyModis/官方例子.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mosaic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GISandPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2PyModis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2PyModis/mosaic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,19 +599,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.python2" />
-      <item itemvalue="Python.批量裁剪并合并" />
-      <item itemvalue="Python.栅格转矢量+裁剪-批量" />
-      <item itemvalue="Python.栅格转矢量+裁剪-批量_v1.1" />
-      <item itemvalue="Python.cut" />
-      <item itemvalue="Python.geocoding" />
+      <item itemvalue="Python.ConvertModisGDAL" />
+      <item itemvalue="Python.MOD04-L2" />
+      <item itemvalue="Python.官方" />
+      <item itemvalue="Python.mosaic" />
+      <item itemvalue="Python.ClassifyAndCreateProject" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.geocoding" />
-        <item itemvalue="Python.栅格转矢量+裁剪-批量_v1.1" />
-        <item itemvalue="Python.栅格转矢量+裁剪-批量" />
-        <item itemvalue="Python.批量裁剪并合并" />
-        <item itemvalue="Python.cut" />
+        <item itemvalue="Python.ClassifyAndCreateProject" />
+        <item itemvalue="Python.ConvertModisGDAL" />
+        <item itemvalue="Python.mosaic" />
+        <item itemvalue="Python.MOD04-L2" />
+        <item itemvalue="Python.官方" />
       </list>
     </recent_temporary>
   </component>
@@ -518,12 +712,25 @@
       <workItem from="1562305862336" duration="19000" />
       <workItem from="1562481088617" duration="19000" />
       <workItem from="1564487775447" duration="77000" />
-      <workItem from="1564727700614" duration="1020000" />
+      <workItem from="1564727700614" duration="3225000" />
+      <workItem from="1564734672356" duration="2647000" />
+      <workItem from="1564751396609" duration="8685000" />
+      <workItem from="1564812730272" duration="6000" />
+      <workItem from="1564829451663" duration="3248000" />
+      <workItem from="1564833060626" duration="252000" />
+      <workItem from="1564833345720" duration="1214000" />
+      <workItem from="1564843843756" duration="2219000" />
+      <workItem from="1564901022199" duration="2551000" />
+      <workItem from="1564914662886" duration="3722000" />
+      <workItem from="1564927881333" duration="641000" />
+      <workItem from="1565014570214" duration="983000" />
+      <workItem from="1565079543465" duration="6957000" />
+      <workItem from="1565140149740" duration="1342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111152000" />
+    <option name="totallyTimeSpent" value="147824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,24 +742,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="766" y="0" width="784" height="832" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2386059" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6528571" visible="true" weight="0.6666667" />
+      <window_info id="Structure" order="1" sideWeight="0.34714285" side_tool="true" visible="true" weight="0.6666667" />
+      <window_info id="Favorites" order="2" sideWeight="0.50211865" side_tool="true" weight="0.15214477" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7774799" weight="0.33569404" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.44475922" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91219836" weight="0.31444758" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597856" weight="0.44475922" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.35977337" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22252011" side_tool="true" visible="true" weight="0.33569404" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.087801605" side_tool="true" weight="0.3186969" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49262735" weight="0.2719547" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4899464" weight="0.30311614" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.48659518" weight="0.3371105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -575,189 +782,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.1ORG/example/shptotxt/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98325" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.1ORG/example/shptotxt/dist/out.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Anaconda3/Lib/site-packages/osgeo/ogr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="6057" column="8" selection-start-line="6057" selection-start-column="8" selection-end-line="6057" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.1ORG/[OGR] 4 Geometry-处理几何要素.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1178">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.1ORG/[OGR] 1.2 基础 layer图层.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="33" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.1ORG/example/shptotxt/shptotxt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="103" column="51" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="51" />
-          <folding>
-            <element signature="e#176#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/ArcGIS10.5/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/ArcGIS/Desktop10.5/arcpy/arcpy/arc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.1ORG/[OGR] 9 操作 拷贝.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="155">
-            <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.1ORG/[OGR] 3 属性选择 空间选择-使用OGR过滤数据.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="328">
-            <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/ArcGIS/Desktop10.5/arcpy/arcpy/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="629" column="10" selection-start-line="629" selection-start-column="1" selection-end-line="629" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.1ORG/example/batchcut/batch_cut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.1ORG/example/batchcut/cut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="18" />
-          <folding>
-            <element signature="e#172#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/ArcGIS10.5/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/get_detail_info.py" />
-    <entry file="file://$PROJECT_DIR$/1.3GDAL/[GDAL] 1.1 读写栅格数据.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2Arcpy/批量裁剪并合并.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/pnt.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/old/API/poi/amap_poi.py" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/subway/process_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/POI/poi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="e#417#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/road.geojson" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/index.html" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/README.md" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/package.json" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/mapandbuilding-master/index.js" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiTipslite/urls" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiTipslite/poiTipslite_urls.txt" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/poiInfo_urls.txt" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/pois_detail2019-03-12 15-10-42.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/0 WebAPI-高德地图.url" />
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_polygon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="122" column="67" lean-forward="true" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/ArcGIS10.5/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/poiInfo/ditu.amap.com.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/实例.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -773,16 +797,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2Arcpy/part1.py" />
-    <entry file="file://$PROJECT_DIR$/2Arcpy/node/[ArcPy] 参数篇.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="44" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2Arcpy/栅格转矢量+裁剪-批量.py" />
     <entry file="file://$PROJECT_DIR$/2Arcpy/ArcGISTools/提取栅格外框线-批量/栅格转矢量+裁剪-批量_v1.1.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -804,24 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2Arcpy/delete_repetitive_geometry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2Arcpy/clip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2Arcpy/两两相交.py">
+    <entry file="file://$PROJECT_DIR$/2Arcpy/old/两两相交.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
@@ -851,9 +848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1folium/code/加载高德地图.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1folium/code/加载高德地图.py" />
     <entry file="file://$PROJECT_DIR$/0ospybook/[ospybook] Python库——与地理数据的简单交互操作.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -881,6 +876,231 @@
             <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pymodis/optparse_gui.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pymodis/parsemodis.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2PyModis/source/modis_convert.py" />
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pymodis/downmodis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="232" column="4" selection-start-line="232" selection-start-column="4" selection-end-line="232" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/imp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="341" selection-start-line="341" selection-end-line="341" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2PyModis/example/mosic.py" />
+    <entry file="file://C:/Anaconda3/Lib/site-packages/osgeo/gdal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="2973" selection-start-line="2973" selection-end-line="2973" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pymodis/convertmodis_gdal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="137" column="28" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.2OSR Proj/prj/WGS84.prj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2PyModis/note/[Python] PyModis.md" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/old/clip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/delete_repetitive_geometry.py" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/old/boundary__following.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#115#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/old/DeleteDarkSide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#167#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/old/equal_reclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <folding>
+            <element signature="e#89#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_polygon_old.py" />
+    <entry file="file://$PROJECT_DIR$/3CrawlerOfGIS/amap/detail/amap_polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="68" column="48" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="48" />
+          <folding>
+            <element signature="e#128#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/old/创建polygon.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/MOD04-L2/arcpy.py" />
+    <entry file="file://$PROJECT_DIR$/2PyModis/mosaic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#173#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2PyModis/ConvertModisGDAL.py" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/MOD04L2.py" />
+    <entry file="file://$PROJECT_DIR$/2PyModis/MOD04-L2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2PyModis/[Python] PyModis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="247">
+            <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2PyModis/官方例子.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#14#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[Arcpy] 0 初识Arcpy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret lean-forward="true" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[ArcPy] ArcPy与栅格.md" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[ArcPy] 操作栅格数据.md" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[ArcPy] 多个栅格文件相加.md" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[ArcPy] arcpy.md" />
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[Arcpy] 9 Arcpy常用汇总.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[ArcPy] 2 ArcPy与几何对象.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[Arcpy] 1 Arcpy与栅格.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/note/[ArcPy] 3 参数篇.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.2OSR Proj/[Python] OSR - 坐标系.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="66" column="26" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/MOD04Toolbox/[ArcGIS批处理] MOD04 影像分类+抽取子集+投影+融合.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2Arcpy/ArcGISTools/MOD04-L2/MOD04Toolbox/ClassifyAndCreateProject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding>
+            <element signature="e#304#314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

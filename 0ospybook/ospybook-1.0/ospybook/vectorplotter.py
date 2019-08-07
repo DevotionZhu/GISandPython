@@ -11,7 +11,7 @@ polygon_types = [ogr.wkbPolygon, ogr.wkbPolygon25D,
                  ogr.wkbMultiPolygon, ogr.wkbMultiPolygon25D]
 
 class VectorPlotter(SimpleVectorPlotter):
-    """Plots vector data represented as OGR layers and geometries."""
+    """Plots vector 2001 represented as OGR layers and geometries."""
 
     def __init__(self, interactive, ticks=False, figsize=None, limits=None):
         """Construct a new VectorPlotter.

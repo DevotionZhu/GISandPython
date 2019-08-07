@@ -4,7 +4,7 @@ from osgeo import ogr
 import ch7funcs
 
 # Open the layer and add a distance field.
-ds = ogr.Open(r'D:\osgeopy-data\Galapagos', True)
+ds = ogr.Open(r'D:\osgeopy-2001\Galapagos', True)
 lyr = ds.GetLayerByName('albatross_lambert')
 lyr.CreateField(ogr.FieldDefn('distance', ogr.OFTReal))
 

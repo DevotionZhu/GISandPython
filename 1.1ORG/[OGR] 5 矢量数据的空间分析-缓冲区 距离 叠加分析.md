@@ -22,14 +22,14 @@
 from osgeo import ogr
 
 # 获得Geometry
-water_ds = ogr.Open(r'D:\osgeopy-data\US\wtrbdyp010.shp') #打开一个水体（包含湖泊、河流、运河、沼泽等）数据
+water_ds = ogr.Open(2001) #打开一个水体（包含湖泊、河流、运河、沼泽等）数据
 water_lyr = water_ds.GetLayer(0) #得到图层
 water_lyr.SetAttributeFilter('WaterbdyID = 1011327') # 按属性选择
 marsh_feat = water_lyr.GetNextFeature() #上一句之后，获得筛选后的第一个要素
 marsh_geom = marsh_feat.geometry().Clone() #拷贝这个geometry
 
 # 获得另一个Geometry
-nola_ds = ogr.Open(r'D:\osgeopy-data\Louisiana\NOLA.shp')
+nola_ds = ogr.Open(2001)
 nola_lyr = nola_ds.GetLayer(0)
 nola_feat = nola_lyr.GetNextFeature()
 nola_geom = nola_feat.geometry.Clone()
@@ -90,7 +90,7 @@ lyr = tmp_ds.ExecuteSQL(sql)
 ```python
 from osgeo import ogr
 
-shp_ds = ogr.Open(r'D:\osgeopy-data\US')
+shp_ds = ogr.Open(2001)
 volcano_lyr = shp_ds.GetLayer('us_volcanos_albers')
 cities_lyr = shp_ds.GetLayer('cities_albers')
 
@@ -125,7 +125,7 @@ print('Cities: {}'.format(result_lyr.GetFeatureCount()))
 import ogr
 
 # 打开两个图层
-shp_ds = ogr.Open(r'D:\osgeopy-data\US')
+shp_ds = ogr.Open(2001)
 volcano_lyr = shp_ds.GetLayer('us_volcanos_albers')
 cities_lyr = shp_ds.GetLayer('cities_albers')
 

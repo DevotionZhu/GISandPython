@@ -1,7 +1,7 @@
 from osgeo import ogr
 import ch7funcs
 
-ds = ogr.Open(r'D:\osgeopy-data\Galapagos', True)
+ds = ogr.Open(r'D:\osgeopy-2001\Galapagos', True)
 pt_lyr = ds.GetLayerByName('albatross_lambert')
 poly_lyr = ds.CreateLayer(
     'albatross_ranges', pt_lyr.GetSpatialRef(), ogr.wkbPolygon)

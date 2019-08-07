@@ -8,7 +8,7 @@ from osgeo import gdal, osr
 # Make a copy of the original image so we're leaving it alone and changing
 # the new one. Try opening the original in a GIS. It doesn't have any
 # SRS infos.json and the upper left corner should have coordinates of 0,0.
-os.chdir(r'D:\osgeopy-data\Utah')
+os.chdir(r'D:\osgeopy-2001\Utah')
 shutil.copy('cache_no_gcp.tif', 'cache.tif')
 
 # Open the copied image so we can add GCPs to it.

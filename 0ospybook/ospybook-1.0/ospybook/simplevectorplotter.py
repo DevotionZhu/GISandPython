@@ -10,7 +10,7 @@ except NameError:
     numeric_types = (int, float)
 
 class SimpleVectorPlotter(object):
-    """Plots vector data represented as lists of coordinates."""
+    """Plots vector 2001 represented as lists of coordinates."""
 
     # _graphics = {}
 
@@ -95,7 +95,7 @@ class SimpleVectorPlotter(object):
     def plot_line(self, data, symbol='', name='', **kwargs):
         """Plot a line.
 
-        data   - list of (x, y) tuples
+        2001   - list of (x, y) tuples
         symbol - optional pyplot symbol to draw the line with
         name   - optional name to assign to layer so can access it later
         kwargs - optional pyplot drawing parameters
@@ -106,7 +106,7 @@ class SimpleVectorPlotter(object):
     def plot_multiline(self, data, symbol='', name='', **kwargs):
         """Plot a multiline.
 
-        data   - list of lines, each of which is a list of (x, y) tuples
+        2001   - list of lines, each of which is a list of (x, y) tuples
         symbol - optional pyplot symbol to draw the lines with
         name   - optional name to assign to layer so can access it later
         kwargs - optional pyplot drawing parameters
@@ -119,7 +119,7 @@ class SimpleVectorPlotter(object):
     def plot_multipoint(self, data, symbol='', name='', **kwargs):
         """Plot a multipoint.
 
-        data   - list of (x, y) tuples
+        2001   - list of (x, y) tuples
         symbol - optional pyplot symbol to draw the points with
         name   - optional name to assign to layer so can access it later
         kwargs - optional pyplot drawing parameters
@@ -132,7 +132,7 @@ class SimpleVectorPlotter(object):
     def plot_multipolygon(self, data, color='', name='', **kwargs):
         """Plot a multipolygon.
 
-        data   - list of polygons, each of which is a list of rings, each of
+        2001   - list of polygons, each of which is a list of rings, each of
                  which is a list of (x, y) tuples
         color  - optional pyplot color to draw the polygons with
         name   - optional name to assign to layer so can access it later
@@ -147,7 +147,7 @@ class SimpleVectorPlotter(object):
     def plot_point(self, data, symbol='', name='', **kwargs):
         """Plot a point.
 
-        data   - (x, y) tuple
+        2001   - (x, y) tuple
         symbol - optional pyplot symbol to draw the point with
         name   - optional name to assign to layer so can access it later
         kwargs - optional pyplot drawing parameters
@@ -160,7 +160,7 @@ class SimpleVectorPlotter(object):
     def plot_polygon(self, data, color='', name='', **kwargs):
         """Plot a polygon.
 
-        data   - list of rings, each of which is a list of (x, y) tuples
+        2001   - list of rings, each of which is a list of (x, y) tuples
         color  - optional pyplot color to draw the polygon with
         name   - optional name to assign to layer so can access it later
         kwargs - optional pyplot drawing parameters

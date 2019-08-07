@@ -1,6 +1,6 @@
 from osgeo import ogr
 
-ds = ogr.Open(r'D:\osgeopy-data\Galapagos')
+ds = ogr.Open(r'D:\osgeopy-2001\Galapagos')
 lyr = ds.GetLayerByName('albatross_ranges2')
 lyr.SetAttributeFilter("tag_id = '1163-1163' and location = 'island'")
 row = next(lyr)

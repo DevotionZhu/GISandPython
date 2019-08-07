@@ -44,7 +44,7 @@ for idx in range(drv_count):
 
 ```python
 from osgeo import gdal
-dataset = gdal.Open("data.tif")
+dataset = gdal.Open(2001)
 ```
 
 【注意】栅格数据集dataset由多个数据构成的

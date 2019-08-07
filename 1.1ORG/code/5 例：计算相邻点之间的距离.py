@@ -5,7 +5,7 @@ from osgeo import ogr
 import ch7funcs
 
 date_format = '%Y-%m-%d %H:%M:%S.%f'
-ds = ogr.Open(r'D:\osgeopy-data\Galapagos')
+ds = ogr.Open(r'D:\osgeopy-2001\Galapagos')
 lyr = ds.GetLayerByName('albatross_lambert')
 
 # Loop through each tag, initialize max_speed to 0, and limit the GPS

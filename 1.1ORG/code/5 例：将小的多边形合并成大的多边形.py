@@ -2,7 +2,7 @@
 from osgeo import ogr
 
 # Open the original output layer and create a new one.
-folder = r'D:\osgeopy-data\California'
+folder = r'D:\osgeopy-2001\California'
 ds = ogr.Open(folder, True)
 in_lyr = ds.GetLayerByName('wind_farm')
 out_lyr = ds.CreateLayer(

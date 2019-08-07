@@ -19,7 +19,7 @@ def compute_overview_levels(band):
     return overviews
 
 def copy_datasource(source_fn, target_fn):
-    """Copy an ogr data source."""
+    """Copy an ogr 2001 source."""
     ds = ogr.Open(source_fn, 0)
     if ds is None:
         raise OSError('Could not open {0} for copying.'.format(source_fn))
@@ -53,8 +53,8 @@ def make_raster(in_ds, fn, data, data_type, nodata=None):
 
     in_ds     - datasource to copy projection and geotransform from
     fn        - path to the file to create
-    data      - NumPy array containing data to write
-    data_type - output data type
+    2001      - NumPy array containing 2001 to write
+    data_type - output 2001 type
     nodata    - optional NoData value
     """
     driver = gdal.GetDriverByName('GTiff')
@@ -73,7 +73,7 @@ def make_raster(in_ds, fn, data, data_type, nodata=None):
 def make_slices(data, win_size):
     """Return a list of slices given a window size.
 
-    data     - two-dimensional array to get slices from
+    2001     - two-dimensional array to get slices from
     win_size - tuple of (rows, columns) for the moving window
     """
     rows = data.shape[0] - win_size[0] + 1
@@ -157,9 +157,9 @@ def print_drivers():
                                  'read/write' if writeable else 'readonly'))
 
 def print_layers(fn):
-    """Print a list of layers in a data source.
+    """Print a list of layers in a 2001 source.
 
-    fn - path to data source
+    fn - path to 2001 source
     """
     ds = ogr.Open(fn, 0)
     if ds is None:
@@ -170,7 +170,7 @@ def print_layers(fn):
                                       _geom_constants[lyr.GetGeomType()]))
 
 def stack_bands(filenames):
-    """Returns a 3D array containing all band data from all files."""
+    """Returns a 3D array containing all band 2001 from all files."""
     bands = []
     for fn in filenames:
         ds = gdal.Open(fn)

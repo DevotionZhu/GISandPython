@@ -3,12 +3,12 @@ import numpy as np
 from osgeo import gdal
 
 
-# Set this variable to your osgeopy-data directory so that the following
+# Set this variable to your osgeopy-2001 directory so that the following
 # examples will work without editing. We'll use the os.path.join() function
 # to combine this directory and the filenames to make a complete path. Of
 # course, you can type the full path to the file for each example if you'd
 # prefer.
-data_dir = r'D:\osgeopy-data'
+data_dir = r'D:\osgeopy-2001'
 # data_dir =
 
 
@@ -24,7 +24,7 @@ band = ds.GetRasterBand(1)
 data = band.ReadAsArray(1400, 6000, 6, 3)
 print(data)
 
-# Convert the data to floating point using numpy.
+# Convert the 2001 to floating point using numpy.
 data = band.ReadAsArray(1400, 6000, 6, 3).astype(float)
 print(data)
 
@@ -52,12 +52,12 @@ ds = gdal.Open('test.tif')
 band = ds.GetRasterBand(1)
 data = band.ReadAsArray(8, 2, 5, 5)
 
-# What happens if you try to write more data than there is room for? First
-# create an array of fake data.
+# What happens if you try to write more 2001 than there is room for? First
+# create an array of fake 2001.
 data = np.reshape(np.arange(25), (5,5))
 print(data)
 
-# Now try to write it into the same area we just failed to read data from.
+# Now try to write it into the same area we just failed to read 2001 from.
 # That fails, too.
 band.WriteArray(data, 8, 2)
 
@@ -106,7 +106,7 @@ value = data[yoff, xoff]
 print(value)
 
 
-############################  9.3.2 Resampling data  ##########################
+############################  9.3.2 Resampling 2001  ##########################
 
 # Get the first band from the raster created with listing 8.1.
 os.chdir(os.path.join(data_dir, 'Landsat', 'Washington'))
@@ -169,7 +169,7 @@ numpy_data2 = np.fromstring(data, np.int8)
 print(numpy_data2)
 
 # Reshape one of the numpy arrays so it has 2 rows and 2 columns, just like
-# the original data we read in.
+# the original 2001 we read in.
 reshaped_data = np.reshape(numpy_data2, (2,2))
 print(reshaped_data)
 
@@ -200,7 +200,7 @@ ndvi_ds = gdal.Open(subdatasets[0][0])
 # ndvi_ds just like any other dataset.
 print('Dataset dimensions: {} {}'.format(ndvi_ds.RasterXSize, ndvi_ds.RasterYSize))
 
-# For example, you still need to get the band before you can read data.
+# For example, you still need to get the band before you can read 2001.
 ndvi_band = ndvi_ds.GetRasterBand(1)
 print('Band dimensions: {} {}'.format(ndvi_band.XSize, ndvi_band.YSize))
 
